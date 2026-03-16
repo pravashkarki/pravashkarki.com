@@ -1,0 +1,36 @@
+name: Bug report
+description: Something is broken
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we see the bug?
+      placeholder: |
+        1. Run pnpm dev
+        2. Navigate to /posts/...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen instead?
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, Node version
+      placeholder: "macOS 14, Chrome 120, Node 20"
+    validations:
+      required: false

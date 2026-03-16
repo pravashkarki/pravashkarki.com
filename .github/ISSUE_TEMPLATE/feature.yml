@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest an improvement
+labels: ["feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe why this feature is needed.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like?
+      description: Describe the solution you'd like.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you thought about?
+    validations:
+      required: false

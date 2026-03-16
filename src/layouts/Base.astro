@@ -1,0 +1,75 @@
+---
+import "../styles/global.css";
+import { site, colors, tokens_ as t } from "../config";
+
+interface Props {
+  title: string;
+  description?: string;
+  mdUrl?: string;
+}
+
+const { title, description, mdUrl } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    {mdUrl && <link rel="alternate" type="text/markdown" href={mdUrl} />}
+    <style set:html={`
+      :root {
+        --text: ${colors.light.text};
+        --text-muted: ${colors.light.textMuted};
+        --bg: ${colors.light.bg};
+        --link: ${colors.light.link};
+        --border: ${colors.light.border};
+        --code-bg: ${colors.light.codeBg};
+        --font-family: ${t.typography.fontFamily[t.typography.fontStack as keyof typeof t.typography.fontFamily]};
+        --font-sm: ${t.typography.scale.sm};
+        --font-md: ${t.typography.scale.md};
+        --font-lg: ${t.typography.scale.lg};
+        --font-xl: ${t.typography.scale.xl};
+        --font-body: var(--font-${t.typography.body});
+        --line-height: ${t.typography.lineHeight};
+        --font-code: ${t.typography.code};
+        --spacing-body: ${t.spacing.body};
+        --max-width: ${t.spacing.maxWidth};
+        --spacing-main-top: ${t.spacing.mainTop};
+        --spacing-list-gap: ${t.spacing.listGap};
+        --spacing-content-gap: ${t.spacing.contentGap};
+        --spacing-heading-top-lg: ${t.spacing.headingTopLg};
+        --spacing-heading-top-sm: ${t.spacing.headingTopSm};
+        --spacing-heading-bottom: ${t.spacing.headingBottom};
+        --radius-code: ${t.radii.code};
+        --radius-pre: ${t.radii.pre};
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --text: ${colors.dark.text};
+          --text-muted: ${colors.dark.textMuted};
+          --bg: ${colors.dark.bg};
+          --link: ${colors.dark.link};
+          --border: ${colors.dark.border};
+          --code-bg: ${colors.dark.codeBg};
+        }
+      }
+    `} />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <header>
+      <nav aria-label="Site">
+        <a href="/">{site.name}</a>
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer>
+      <p>The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.</p>
+    </footer>
+  </body>
+</html>
