@@ -6,9 +6,15 @@ tags: [ai-agents, workflow, operating-model]
 image: /images/og-an-operating-system-for-a-team-of-one.png
 ---
 
-My days belong to a full-time product role. Everything in this essay happens outside it, on evenings and weekends: the studio I founded, which its CEO runs day to day; a mental-health app; a bilingual education site; some infrastructure. For most of 2026 that side of my life has been a team of one plus several AI coding agents: Claude Code in one terminal, Codex in another, sometimes a review model reading over their shoulders. The agents multiplied what I could ship in those hours, and for a while they multiplied the coordination beyond what chat could hold. Limited hours are exactly why an operating model was worth writing down.
+My days belong to a full-time product role. Everything in this essay happens outside it, on evenings and weekends: the studio I founded, which its CEO runs day to day; a mental-health app; a bilingual education site; some infrastructure.
 
-I did not set out to run several agents. The second one arrived the day I hit the usage limit on the first subscription with work still to finish. It stayed for a different reason: I had learned I could not fully rely on one agent's account of its own work, so a second model started reading the first one's output before I did. That became the pair-review habit. The speed showed up last, and only once the rules existed: two or three agents on separate packets, with one orchestrator holding the context, get through in an evening what used to take me a week of evenings, coordination included. The three review rounds on the app lock took an evening each.
+For most of 2026 that side of my life has been a team of one plus several AI coding agents: Claude Code in one terminal, Codex in another, sometimes a review model reading over their shoulders.
+
+The agents multiplied what I could ship in those hours, and for a while they multiplied the coordination beyond what chat could hold. Limited hours are exactly why an operating model was worth writing down.
+
+I did not set out to run several agents. The second one arrived the day I hit the usage limit on the first subscription with work still to finish. It stayed for a different reason: I had learned I could not fully rely on one agent's account of its own work, so a second model started reading the first one's output before I did.
+
+That became the pair-review habit. The speed showed up last, and only once the rules existed: two or three agents on separate packets, with one orchestrator holding the context, get through in an evening what used to take me a week of evenings, coordination included. The three review rounds on the app lock took an evening each.
 
 The chaos had a shape. Every session started from zero. An agent would reopen a decision I had settled the week before. Scope grew in the gaps between messages. Something got "fixed" that I never asked to be touched. And the real record of what had happened lived in chat history that nobody, including me, was ever going to read again.
 
@@ -20,13 +26,17 @@ Everything else follows from one decision: files over chat.
 
 Task state, session state, decisions, open arguments, hand-off notes: each lives in a file with a known name at a known path. Native tool files like `CLAUDE.md` or `AGENTS.md` are thin adapters that point at those files; they are not where knowledge lives. Chat is where work is discussed. Files are where work is remembered.
 
-Once that is true, a session in any tool can start the same way: read the project file, read the task list, read where the last session stopped, verify the repository state, report, and only then act. We call it `ss`. Its mirror, `sss`, closes a session: update the task state, update the session file, update whatever durable notes changed, show me the list. The next session, in any tool, picks up from files rather than from memory.
+Once that is true, a session in any tool can start the same way: read the project file, read the task list, read where the last session stopped, verify the repository state, report, and only then act.
+
+We call it `ss`. Its mirror, `sss`, closes a session: update the task state, update the session file, update whatever durable notes changed, show me the list. The next session, in any tool, picks up from files rather than from memory.
 
 ## Who decides what
 
 The second thing the model does, once the record lives outside chat, is draw lines around decisions.
 
-I own direction, scope, releases, priorities, trade-offs, and the final call when a debate is exhausted. Agents own technical analysis, sequencing, execution planning, and routine implementation decisions inside a plan I have approved. And there is a third list, the one that matters most: things an agent must never decide alone. Scope changes. Deployment and infrastructure changes with operational risk. Security posture. Irreversible data changes. Anything that overrides a decision already made.
+I own direction, scope, releases, priorities, trade-offs, and the final call when a debate is exhausted. Agents own technical analysis, sequencing, execution planning, and routine implementation decisions inside a plan I have approved.
+
+And there is a third list, the one that matters most: things an agent must never decide alone. Scope changes. Deployment and infrastructure changes with operational risk. Security posture. Irreversible data changes. Anything that overrides a decision already made.
 
 When work touches that list, the agent stops and says so. The agents followed this boundary only after I wrote it down, and it is the rule that has prevented the damage that hurts most: unreviewed changes to live infrastructure, a scope quietly doubled, a settled decision reversed in passing.
 
@@ -42,7 +52,9 @@ The one-thing-at-a-time rule governs questions and decisions, not execution: age
 
 The default workflow is strict: inspect, gather the missing context, write the plan, review it for gaps and risks, get explicit approval, execute only that scope, verify, update the records, leave the next restart point clear.
 
-That rigidity broke in practice, because much of this side work is small and reversible, where a written plan is ceremony. So the model now defines a lighter mode, and defines it precisely: when I ask for it on a low-risk, reversible task, the written plan, the review, and the formal approval may collapse into a one-line stated intent and a go-ahead. Inspecting first, verifying after, and updating the record never drop. Naming the exception was better than pretending it did not exist.
+That rigidity broke in practice, because much of this side work is small and reversible, where a written plan is ceremony.
+
+So the model now defines a lighter mode, and defines it precisely: when I ask for it on a low-risk, reversible task, the written plan, the review, and the formal approval may collapse into a one-line stated intent and a go-ahead. Inspecting first, verifying after, and updating the record never drop. Naming the exception was better than pretending it did not exist.
 
 ## Safeguards I added later
 
@@ -56,7 +68,9 @@ Two other models reviewed the public edition and pointed at five holes. The rule
 
 ## An honest example
 
-While building [Mano](/app/mano/), an offline mental-health app, one agent implemented the app lock and another audited security. The auditor found that the lock could never succeed on Android: the activity type was wrong. It did not edit the file, because the first agent had claimed it. It wrote the finding, with evidence, into the discussion file and opened a task. The first agent picked the task up at its next checkpoint, wrote the revert step, and made the change.
+While building [Mano](/app/mano/), an offline mental-health app, one agent implemented the app lock and another audited security. The auditor found that the lock could never succeed on Android: the activity type was wrong.
+
+It did not edit the file, because the first agent had claimed it. It wrote the finding, with evidence, into the discussion file and opened a task. The first agent picked the task up at its next checkpoint, wrote the revert step, and made the change.
 
 Then the change broke the debug build, because a guard I had asked for fired at configuration time for every build. The verification failed, which is a rollback trigger. Revert, record, fix properly in a second reviewed commit. After three review rounds the lock prompted correctly on a device, the automated flow test passed on both platforms, and the change shipped.
 
