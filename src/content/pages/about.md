@@ -87,8 +87,15 @@ Organising team member, WordCamp Kathmandu 2017 and 2018. Platinum sponsor of th
 
 Nepali (native) · English (full professional proficiency; postgraduate education completed in English) · Hindi (proficient speaker).
 
+## Press and talks
+
+- Republica: [Made-in-Nepal apps for your smartphones](https://myrepublica.nagariknetwork.com/news/made-in-nepal-apps-for-your-smartphones), on BattiGayo (16,000 downloads at the time, about 1,000 a week) and app development in Nepal.
+- BattiGayo, as it was: [battigayo.com in the Wayback Machine (2018)](http://web.archive.org/web/20180805192921/http://battigayo.com/).
+- The Doers Nepal podcast: [The fall and rise of a tech entrepreneur](https://thedoersnepal.podbean.com/e/the-fall-and-rise-of-tech-entrepreneur-pravash-karki/).
+- Podcast: [Remote work is the future, how anyone can start earning from home](https://www.youtube.com/watch?v=uOu3kEZrpZA) (YouTube).
+
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/pravkarki) · [GitHub](https://github.com/pravashkarki) · [WordPress.org](https://profiles.wordpress.org/pravco/) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f) · [The Doers Nepal podcast: The fall and rise of a tech entrepreneur](https://thedoersnepal.podbean.com/e/the-fall-and-rise-of-tech-entrepreneur-pravash-karki/) · [Podcast: Remote work is the future, how anyone can start earning from home (YouTube)](https://www.youtube.com/watch?v=uOu3kEZrpZA)
+[LinkedIn](https://www.linkedin.com/in/pravkarki) · [GitHub](https://github.com/pravashkarki) · [WordPress.org](https://profiles.wordpress.org/pravco/) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f)
 
 Write to me at kpravash [at] gmail [dot] com.
