@@ -6,7 +6,7 @@ tags: [ai-agents, operating-model, tooling]
 image: /images/og-an-agent-that-lives-in-the-project-management-tool.png
 ---
 
-At LastDoor the team's agent lives in the project management system, not in a terminal. It is always available, it reads the same task list as everyone else, and it is bounded on purpose. [The first essay](/posts/an-operating-system-for-a-team-of-one/) was about one person and several agents at a keyboard; this is the other half.
+At [LastDoor](https://lastdoorsolutions.com) the team's agent lives in the project management system, not in a terminal. It is always available, it reads the same task list as everyone else, and it is bounded on purpose. [The first essay](/posts/an-operating-system-for-a-team-of-one/) was about one person and several agents at a keyboard; this is the other half.
 
 The team runs on one project management tool. Every client project is a project there; every piece of work is a to-do with a brief. That was true before any agent arrived, and it is the reason the agent could arrive at all: the task system was already the one place where work is defined, assigned, and closed. The agent was wired into that place, not into a new one.
 
@@ -56,4 +56,4 @@ The boundary that took longest to learn was between tools and projects. A tool i
 
 An agent that is always available sounds like a productivity story, and it is. But the reason it can be trusted with availability is the fence: one task system, tools that retain no secrets between runs, identities separated below the application, a coordination loop that asks instead of guessing, and a customer-facing bot that is boxed in by code rather than by prompting. Availability without the fence is just a faster way to make a mess.
 
-The operating model behind both essays is [public](https://github.com/pravashkarki/agent-operating-system). The implementation is the shape of one small studio's work. The rules travel; the code does not need to.
+The operating model behind both essays, the [Agent Operating System](/products/#agent-operating-system-2026), is [public](https://github.com/pravashkarki/agent-operating-system). The implementation is the shape of one small studio's work. The rules travel; the code does not need to.

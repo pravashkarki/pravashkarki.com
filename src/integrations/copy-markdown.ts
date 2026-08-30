@@ -15,6 +15,8 @@ async function copyDir(srcDir: string, outDir: string) {
       await copyDir(srcPath, outPath);
     } else if (entry.name.endsWith(".md")) {
       const content = await readFile(srcPath, "utf-8");
+      // Drafts are not built as pages; do not ship their raw Markdown either.
+      if (/^---[\s\S]*?\ndraft:\s*true\b[\s\S]*?\n---/.test(content)) continue;
       await writeFile(outPath, content);
     } else {
       // Copy images and other assets alongside markdown

@@ -56,7 +56,7 @@ Two other models reviewed the public edition and pointed at five holes. The rule
 
 ## An honest example
 
-While building Mano, an offline mental-health app, one agent implemented the app lock and another audited security. The auditor found that the lock could never succeed on Android: the activity type was wrong. It did not edit the file, because the first agent had claimed it. It wrote the finding, with evidence, into the discussion file and opened a task. The first agent picked the task up at its next checkpoint, wrote the revert step, and made the change.
+While building [Mano](/app/mano/), an offline mental-health app, one agent implemented the app lock and another audited security. The auditor found that the lock could never succeed on Android: the activity type was wrong. It did not edit the file, because the first agent had claimed it. It wrote the finding, with evidence, into the discussion file and opened a task. The first agent picked the task up at its next checkpoint, wrote the revert step, and made the change.
 
 Then the change broke the debug build, because a guard I had asked for fired at configuration time for every build. The verification failed, which is a rollback trigger. Revert, record, fix properly in a second reviewed commit. After three review rounds the lock prompted correctly on a device, the automated flow test passed on both platforms, and the change shipped.
 
