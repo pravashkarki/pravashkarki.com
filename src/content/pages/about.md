@@ -21,7 +21,7 @@ Remote consulting engagement under contract.
 - Bridging design leadership with hands-on execution to deliver a scalable solution for enterprise clients.
 - Ongoing technology consulting: UI/UX design, software development, website design and development, delivered fully remotely.
 
-**Founder, LastDoor (Last Door Solutions Pvt Ltd)** · April 2006 to present
+**Founder, LastDoor** · April 2006 to present
 
 Design-driven technology practice specialising in B2B enterprise-grade Drupal and WordPress design and development for international clients. Incorporated 2011; day-to-day operations now led by a dedicated CEO.
 
@@ -42,10 +42,10 @@ Various roles with international teams. Began as a graphic designer at a printin
 
 ## Entrepreneurial ventures
 
-- **Aurum Orbit Pvt Ltd**, Kathmandu: co-founder, incorporated October 2024.
-- **Neptees Pvt Ltd**, Kathmandu: co-founder. Graphic tees made in Nepal, [neptees.com](https://neptees.com).
-- **Idealaya Pvt Ltd**, Kathmandu: co-founder, incorporated September 2012. Web design and digital marketing agency; publisher of the BattiGayo app.
-- **Last Door Solutions Pvt Ltd**, Kathmandu: founder, incorporated January 2011.
+- **Aurum Orbit**: co-founder, 2024.
+- **Neptees**, Kathmandu: co-founder. Graphic tees made in Nepal, [neptees.com](https://neptees.com).
+- **Idealaya**, Kathmandu: co-founder, 2012. Web design and digital marketing agency; publisher of the BattiGayo app.
+- **Last Door Solutions**, Kathmandu: founder, 2011.
 - **Sampression**: co-founder. Free WordPress themes on WordPress.org.
 
 ## Teaching

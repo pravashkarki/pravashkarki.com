@@ -45,7 +45,7 @@ Free themes on the official WordPress.org directory, co-founded as Sampression: 
 
 ## Neptees
 
-Graphic tees made in Nepal. Co-founder, Neptees Pvt Ltd. "Wear your pride. Wear Nepali." [neptees.com](https://neptees.com)
+Graphic tees made in Nepal. Co-founder, Neptees. "Wear your pride. Wear Nepali." [neptees.com](https://neptees.com)
 
 ## LastDoor (since 2006)
 
