@@ -6,7 +6,7 @@ tags: [security, wordpress, incident-response]
 image: /images/og-the-void-has-a-process.png
 ---
 
-At LastDoor, the studio I founded, the team cleaned a compromised WordPress site for a European client. Then it got reinfected within 24 hours, and that is where I came in: the team could not see why, so I dug deeper. This is studio client work, unrelated to my full-time role; the site and the client are not identified.
+At LastDoor, the studio I founded, the team cleaned a compromised WordPress site for a European client. Then it got reinfected within 24 hours, and that is where I came in: the team could not see why, so I dug deeper.
 
 The original breach was from 2020. A vulnerable plugin gave attackers remote code execution. They planted a cryptominer and left. Or so we thought.
 
