@@ -48,7 +48,7 @@ Various roles with international teams. Began as a graphic designer at a printin
 
 **[The Ultimate Guide to Mastering Web Design in Figma](https://www.youtube.com/watch?v=Hgc9krfkWhU&list=PLj8vIOn4nekuq38j-nu0H0UaVBX8Kxh9M)**, free course in Nepali, 7 parts · 2020
 
-Recorded from a live Zoom training series I ran during the lockdown for more than 500 participants, so people could use that time to learn a real skill and earn with it. The material still holds; it is on [YouTube](https://www.youtube.com/@pravkarki).
+Recorded from a live Zoom training series I ran during the lockdown for more than 500 participants, so people could use that time to learn a real skill and earn with it. The material still holds; it is on [YouTube](https://www.youtube.com/@pravkarki), alongside recorded lectures and workshops such as [Learn how to install Git, VS Code and the GitHub Student Developer Pack](https://www.youtube.com/watch?v=Jisn10XJbhI).
 
 
 **Lecturer, Herald College Kathmandu** · February 2022 to January 2023
