@@ -8,6 +8,8 @@ image: /images/og-an-operating-system-for-a-team-of-one.png
 
 For most of 2026 I have been working as a team of one plus several AI coding agents: Claude Code in one terminal, Codex in another, sometimes a review model reading over their shoulders. Client work, a mental-health app, a bilingual education site, infrastructure. It is more work than one person should be able to do, and for a while it was also more chaos than one person should have to manage.
 
+I did not set out to run several agents. The second one arrived the day I hit the usage limit on the first subscription with work still to finish. It stayed for a different reason: I had learned I could not fully rely on one agent's account of its own work, so a second model started reading the first one's output before I did. That became the pair-review habit. Only after that did the obvious benefit show up: with the rules in place, two or three agents on separate packets are simply faster than one.
+
 The chaos had a shape. Every session started from zero. An agent would reopen a decision I had settled the week before. Scope grew in the gaps between messages. Something got "fixed" that I never asked to be touched. And the real record of what had happened lived in chat history that nobody, including me, was ever going to read again.
 
 The fix was not a better prompt. It was an operating model: a written contract that every agent, in every tool, reads before it does anything. I call it the [Agent Operating System](https://github.com/pravashkarki/agent-operating-system), and this is how it works.
