@@ -3,7 +3,7 @@ title: products
 description: Products, apps, themes and open source by Pravash Karki, 2012 to today.
 ---
 
-## Mano · मनो (2026)
+## Mano · मनो (coming soon, 2026)
 
 A small, free app for noticing how you feel, in Nepali and English. Tap the state that fits, get a warm response and a two-minute skill, and find verified Nepal helplines from every screen. No account, no internet, data never leaves the phone. Android and iOS. [Privacy and support](/app/mano/).
 
