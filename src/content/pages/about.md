@@ -60,7 +60,7 @@ Worked full time with international teams at Best Commerce Tools (US) and Tarsus
 - **Neptees**, Kathmandu: co-founder. Graphic tees made in Nepal, [neptees.com](https://neptees.com).
 - **[Idealaya](https://www.idealaya.com)**, Kathmandu: co-founder, 2012. Web design and digital marketing agency; publisher of the BattiGayo and Medibook apps.
 - **[Last Door Solutions](https://lastdoorsolutions.com)**, Kathmandu: founder, 2011.
-- **Nepal Made Crafts**: founder, 2012. Online shop for handmade products from Nepal, felt and craft goods, retail and wholesale ([archived site, 2012](https://web.archive.org/web/20120130053028/http://nepalmadecrafts.com/) · [Facebook](https://www.facebook.com/nepalmadecrafts)).
+- **Nepal Made Crafts**: founder, 2012 to 2017. Online shop for handmade products from Nepal, felt and craft goods, retail and wholesale; branding and print for the Hike for Nepal campaign (2015) ([archived site, 2012](https://web.archive.org/web/20120130053028/http://nepalmadecrafts.com/) · [Facebook](https://www.facebook.com/nepalmadecrafts)).
 - **[Sampression](https://sampression.com)**: co-founder. Free WordPress themes on WordPress.org.
 
 ## Teaching

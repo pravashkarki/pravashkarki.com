@@ -43,15 +43,15 @@ Digital health platform for booking and managing medical appointments, published
 
 Free themes on the official WordPress.org directory, co-founded as Sampression: Sampression Lite (2012, 200+ active installs), Naya Lite (2014), Finedine (2015, restaurants and food). WordPress.org member since 2012. [profiles.wordpress.org/pravco](https://profiles.wordpress.org/pravco/)
 
-## Hike for Nepal, campaign branding
+## Hike for Nepal, campaign branding (2015)
 
-Identity, print and t-shirts for the Hike for Nepal campaign, screen-printed by hand.
+[Hike for Nepal](https://www.facebook.com/HikeforNepal/) started after the April 2015 earthquake: a group of friends who had been distributing relief went on to run weekly hikes around the Kathmandu Valley to show that Nepal was still safe and worth visiting, and kept supporting communities and schools. Through Nepal Made Crafts I did the campaign's identity, print and t-shirts, screen-printed by hand.
 
 ![Hike for Nepal t-shirts on the screen-printing table and finished, in blue with the white mountain mark](/images/hike-for-nepal-tshirt-screen-printing.jpg)
 
-## Nepal Made Crafts (2012)
+## Nepal Made Crafts (2012 to 2017)
 
-Online shop for handmade products from Nepal: felt and craft goods, retail and wholesale. [Archived site, 2012](https://web.archive.org/web/20120130053028/http://nepalmadecrafts.com/) · [Facebook](https://www.facebook.com/nepalmadecrafts)
+Founder. Online shop for handmade products from Nepal: felt and craft goods, retail and wholesale. Also the studio behind the Hike for Nepal campaign branding. [Archived site, 2012](https://web.archive.org/web/20120130053028/http://nepalmadecrafts.com/) · [Facebook](https://www.facebook.com/nepalmadecrafts)
 
 ## Neptees
 
