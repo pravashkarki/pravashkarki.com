@@ -78,7 +78,7 @@ London Metropolitan University (UK) partner institution. Supervised final-year p
 
 ## Core skills
 
-Product design and strategy; UI/UX design; human-computer interaction; UX research and prototyping; design systems; web design and front-end development; software development; CMS design and development (Drupal, WordPress); brand strategy and visual identity; SEO and digital marketing; AI automation; business development; software project management; cybersecurity fundamentals.
+Product design and strategy; UX research and prototyping; design systems; human-computer interaction; front-end development; AI automation and AI-assisted product work; brand strategy and identity; enterprise CMS (Drupal, WordPress); security-minded product design.
 
 ## Selected projects and open source
 
