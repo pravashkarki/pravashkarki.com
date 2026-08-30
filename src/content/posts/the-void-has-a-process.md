@@ -12,7 +12,7 @@ The original breach was from 2020. A vulnerable plugin gave attackers remote cod
 
 ## The first failure
 
-What they actually left behind were 18 PHP files scattered across WordPress core directories. Each one sat inside a random numbered folder, something like `wp-includes/fonts/449548/index.php`, looking like something WordPress had put there. Each one fetched code from external servers and executed it silently: a persistent remote access layer that survived for ten months without anyone noticing.
+What they actually left behind were 18 PHP files scattered across WordPress core directories. Each one sat inside a random numbered folder, something like `wp-includes/fonts/449548/index.php`, looking like something WordPress had put there. Each one fetched code from external servers and executed it silently: a persistent remote access layer that had survived for years without anyone noticing.
 
 We ran the standard cleanup. Verified core checksums. Everything came back clean.
 
