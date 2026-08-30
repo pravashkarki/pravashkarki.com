@@ -6,7 +6,7 @@ tags: [security, wordpress, incident-response]
 image: /images/og-the-void-has-a-process.png
 ---
 
-At LastDoor, the studio I founded, we cleaned a compromised WordPress site. Then it got reinfected within 24 hours. This is studio client work, unrelated to my full-time role; the site and the client are not identified.
+At LastDoor, the studio I founded, I cleaned a compromised WordPress site for a European client. Then it got reinfected within 24 hours. This is studio client work, unrelated to my full-time role; the site and the client are not identified.
 
 The original breach was from 2020. A vulnerable plugin gave attackers remote code execution. They planted a cryptominer and left. Or so we thought.
 
@@ -30,9 +30,9 @@ Fixing your own site and walking away is like removing a tick and leaving the ne
 
 ## Following the trail
 
-So we traced back. Commit emails on the repositories. Domain registration records. Encoder metadata in the PHP with an email address in it. Webshell author names embedded in the code. None of it guarantees an arrest; the actors are almost certainly overseas and unreachable. That is not the point.
+So I traced back. Commit emails on the repositories. Domain registration records. Encoder metadata in the PHP with an email address in it. Webshell author names embedded in the code. None of it guarantees an arrest; the actors are almost certainly overseas and unreachable. That is not the point.
 
-We reported the repositories to the code host. Reported the command-and-control domains to the CDN. Requested access logs from the hosting provider. Filed a report with the national cyber security centre of the country the site is in. It took about thirty minutes of a weekend in total.
+We reported the repositories to the code host. Reported the command-and-control domains to the CDN. Requested access logs from the hosting provider. Filed a report with the national cyber security centre of the country the site is in, since the site is European and that is where the process lives. It took about thirty minutes of a weekend in total.
 
 The fix protected one site. The reports might protect the next one.
 
