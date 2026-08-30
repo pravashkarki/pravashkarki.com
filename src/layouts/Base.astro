@@ -128,7 +128,7 @@ const headingFont = (fs === "serif" || fs === "sans") ? ff[fs] : fs === "sans+se
       <slot />
     </main>
     <footer>
-      <p>© Pravash Karki · <span class="mailrev" data-u="kpravash" data-d="gmail" data-t="com">kpravash [at] gmail [dot] com</span></p>
+      <p>© Pravash Karki · kpravash [at] gmail [dot] com</p>
     </footer>
     <script>
       // Theme toggle
@@ -163,9 +163,6 @@ const headingFont = (fs === "serif" || fs === "sans") ? ff[fs] : fs === "sans+se
         localStorage.setItem('theme', next);
         applyTheme(next);
       });
-
-      // Email reveal (kept out of raw HTML for spam bots)
-      document.querySelectorAll('.mailrev').forEach((m) => { const el = m as HTMLElement; const a = `${el.dataset.u}@${el.dataset.d}.${el.dataset.t}`; const l = document.createElement('a'); l.href = `mailto:${a}`; l.textContent = a; el.replaceWith(l); });
 
       // Copy button
       document.querySelectorAll('article pre').forEach((pre) => {
