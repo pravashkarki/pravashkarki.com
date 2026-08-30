@@ -6,7 +6,7 @@ tags: [ai-agents, operating-model, tooling]
 image: /images/og-an-agent-that-lives-in-the-project-management-tool.png
 ---
 
-At [LastDoor](https://lastdoorsolutions.com), the studio I founded and which its CEO runs day to day, the team's agent lives in the project management system, not in a terminal. It is always available, it reads the same task list as everyone else, and it is bounded on purpose: an always-available agent is only safe because of the fence around it, and most of this essay is about the fence. This is a story about agents and humans working in the same system, not about agents replacing anyone. In [An operating system for a team of one](/posts/an-operating-system-for-a-team-of-one/) I wrote about one person and several agents at a keyboard, on my own time; this is the team's half, and the rules I wrote for it are the same ones I work by.
+At [LastDoor](https://lastdoorsolutions.com), the studio I founded and which its CEO runs day to day, the team's agent lives in the project management system, not in a terminal. It is always available, it reads the same task list as everyone else, and it is bounded on purpose: an always-available agent is only safe because of the fence around it, and most of this essay is about the fence. This is a story about agents and humans working in the same system, not about agents replacing anyone. In [An operating system for a team of one](/posts/an-operating-system-for-a-team-of-one/) I wrote about one person and several agents at a keyboard, on my own time; this is the team's half. The operating rules are shared between the two; the tools, credentials and repositories are not.
 
 The team runs on one project management tool. Every client project is a project there; every piece of work is a to-do with a brief. That was true before any agent arrived, and it is the reason the agent could arrive at all: the task system was already the one place where work is defined, assigned, and closed. The agent was wired into that place, not into a new one.
 
@@ -18,7 +18,7 @@ There is a human reason the agent lives in the task system and not in a chat win
 
 The rule underneath everything is task-first routing. Any action item that surfaces anywhere, in a chat, in a code review, in an agent session, lands on the board first. Local files can mirror the board for speed, but they are read-only copies; when they disagree, the board wins. An agent that "logged it in its notes" has not logged it.
 
-Tasks open and close with discipline, and the agent is held to it as strictly as a person. A to-do is created with five things set at once: a title, a brief with scope and acceptance criteria, an owner, someone to notify on completion, and a date. A one-line title is not a task. Before anything is marked done, a completion note goes on first: what shipped, the references, the follow-ups. A closed item with no note is treated as a hole in the record.
+On our board, tasks open and close with discipline, and the agent is held to it as strictly as a person. A to-do is created with five things set at once: a title, a brief with scope and acceptance criteria, an owner, someone to notify on completion, and a date. For us, a one-line title is not a task. Before anything is marked done, a completion note goes on first: what shipped, the references, the follow-ups. We treat a closed item with no note as a hole in the record.
 
 Briefs never contain a person's name. Ownership and mentions go in comments, so the brief stays reusable if the work changes hands, including when it changes hands to an agent.
 

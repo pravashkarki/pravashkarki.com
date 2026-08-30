@@ -6,7 +6,7 @@ tags: [security, wordpress, incident-response]
 image: /images/og-the-void-has-a-process.png
 ---
 
-We cleaned a compromised WordPress site this week. Then it got reinfected within 24 hours.
+At LastDoor, the studio I founded, we cleaned a compromised WordPress site. Then it got reinfected within 24 hours. This is studio client work, unrelated to my full-time role; the site and the client are not identified.
 
 The original breach was from 2020. A vulnerable plugin gave attackers remote code execution. They planted a cryptominer and left. Or so we thought.
 
@@ -22,7 +22,7 @@ That was the first failure: trusting a tool to answer a question it was never de
 
 ## The second failure
 
-The second failure was subtler. For years we treated incident response as a technical problem. Find the bad files, remove them, harden the configuration, move on. The site is clean, the client is happy, the invoice is sent.
+The second failure was subtler. For years we treated incident response as a technical problem. Find the bad files, remove them, harden the configuration, move on. The site is clean, the client is reassured, the engagement closes. Nobody is paying for what comes next.
 
 But the attacker's infrastructure was still live. Code-hosting repositories serving payloads. Domains serving malicious code behind a CDN. All of it still running, still compromising other sites that had not found their backdoors yet.
 
@@ -32,7 +32,7 @@ Fixing your own site and walking away is like removing a tick and leaving the ne
 
 So we traced back. Commit emails on the repositories. Domain registration records. Encoder metadata in the PHP with an email address in it. Webshell author names embedded in the code. None of it guarantees an arrest; the actors are almost certainly overseas and unreachable. That is not the point.
 
-We reported the repositories to the code host. Reported the command-and-control domains to the CDN. Requested access logs from the hosting provider. Filed a report with the national cyber security centre of the country the site is in. It took about thirty minutes in total.
+We reported the repositories to the code host. Reported the command-and-control domains to the CDN. Requested access logs from the hosting provider. Filed a report with the national cyber security centre of the country the site is in. It took about thirty minutes of a weekend in total.
 
 The fix protected one site. The reports might protect the next one.
 
