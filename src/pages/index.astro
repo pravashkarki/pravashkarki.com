@@ -3,27 +3,46 @@ import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
 import { site } from "../config";
 
-const posts = (await getCollection("posts")).sort(
+const posts = (await getCollection("posts", ({ data }) => (import.meta.env.PROD ? data.draft !== true : true))).sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime()
 );
 ---
 
 <Base title={site.title} description={site.description}>
-  <ul class="post-list">
-    {
-      posts.map((post) => (
-        <li>
-          <a href={`/posts/${post.id}/`}>{post.data.title}</a>
-          <br />
+  <a class="featured" href="/app/mano/">
+    <img src="/mark.svg" alt="" width="44" height="44" />
+    <span>
+      <strong>Mano · मनो</strong>
+      A small, free app for noticing how you feel, in Nepali and English. Everything stays on your phone. Android and iOS, coming soon.
+    </span>
+  </a>
+
+  <section class="intro">
+    <h1>Pravash Karki</h1>
+    <p>I build calm, useful software, and I am training as a psychosocial counselor. Co-founder of <a href="https://lastdoorsolutions.com">LastDoor Solutions</a> and <a href="https://neptees.com">Neptees</a>.</p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="/app/mano/">Mano app</a><span>Offline feelings log with two-minute coping skills and verified Nepal helplines. No account, no tracking.</span></li>
+      <li><a href="https://pcs.pravashkarki.com">Mano Atlas · मनो एट्लास</a><span>Free bilingual mental-health education: 29 chapters from the CTEVT Psychosocial Counselor course, for students, families and anyone learning.</span></li>
+      <li><a href="https://lastdoorsolutions.com">LastDoor Solutions</a><span>Web and product studio: sites, tools and SEO for clients in Nepal and abroad.</span></li>
+      <li><a href="https://neptees.com">Neptees</a><span>Co-founder, Neptees Pvt. Ltd.</span></li>
+    </ul>
+  </section>
+
+  {posts.length > 0 && (
+    <section class="post-list">
+      <h2>Writing</h2>
+      {posts.map((post) => (
+        <article>
+          <h3><a href={`/posts/${post.id}/`}>{post.data.title}</a></h3>
           <time datetime={post.data.date.toISOString().slice(0, 10)}>
-            {post.data.date.toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
+            {post.data.date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
           </time>
-        </li>
-      ))
-    }
-  </ul>
+        </article>
+      ))}
+    </section>
+  )}
 </Base>

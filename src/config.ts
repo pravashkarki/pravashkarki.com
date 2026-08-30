@@ -4,15 +4,16 @@
 import tokens from "../token.json";
 
 export const site = {
-  name: "inkwell",
-  title: "inkwell",
-  description: "a minimal blog template for serious writers.",
-  url: "https://try-inkwell.vercel.app",
+  name: "Pravash Karki",
+  title: "Pravash Karki",
+  description: "Pravash Karki: calm software, and Mano, a mental-health app and atlas for Nepal.",
+  url: "https://pravashkarki.com",
 };
 
 export const nav = [
   { label: "about", href: "/about" },
-  // { label: "Twitter", href: "https://twitter.com/you", external: true },
+  { label: "mano app", href: "/app/mano" },
+  { label: "mano atlas", href: "https://pcs.pravashkarki.com", external: true },
 ];
 
 export const tokens_ = tokens;

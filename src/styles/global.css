@@ -389,3 +389,18 @@ h3 {
   }
 }
 
+
+/* Home: featured card, intro, projects */
+.featured { display: flex; gap: 1rem; align-items: flex-start; padding: 1rem 1.1rem; border: 1px solid var(--border); border-radius: 12px; text-decoration: none; color: var(--text); margin-bottom: var(--spacing-heading-top-lg); }
+.featured:hover { border-color: var(--text); }
+.featured img { flex: none; width: 2.75rem; height: 2.75rem; }
+.featured strong { display: block; margin-bottom: 0.2rem; }
+.featured span { color: var(--text-muted); font-size: var(--font-sm); }
+.intro h1 { font-size: var(--font-xl); margin-bottom: 0.5rem; }
+.intro p { color: var(--text-muted); }
+.projects { margin-top: var(--spacing-heading-top-lg); }
+.projects h2, .post-list h2 { font-size: var(--font-lg); margin-bottom: var(--spacing-heading-bottom); }
+.projects ul { list-style: none; }
+.projects li { padding: 0.9rem 0; border-top: 1px solid var(--border); }
+.projects li:last-child { border-bottom: 1px solid var(--border); }
+.projects li span { display: block; color: var(--text-muted); font-size: var(--font-sm); margin-top: 0.15rem; }
