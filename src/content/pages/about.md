@@ -103,6 +103,6 @@ Nepali (native) · English (full professional proficiency; postgraduate educatio
 
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/pravasho/) · [GitHub](https://github.com/pravashkarki/) · [Facebook](https://www.facebook.com/prav.karki/) · [YouTube](https://www.youtube.com/@pravkarki) · [WordPress.org](https://profiles.wordpress.org/pravco/) · [Drupal.org](https://www.drupal.org/u/pravashkarki) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f)
+[LinkedIn](https://www.linkedin.com/in/pravasho/) · [GitHub](https://github.com/pravashkarki/) · [Facebook](https://www.facebook.com/prav.karki/) · [YouTube](https://www.youtube.com/@pravkarki) · [Behance](https://www.behance.net/pravkarki) · [WordPress.org](https://profiles.wordpress.org/pravco/) · [Drupal.org](https://www.drupal.org/u/pravashkarki) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f)
 
 Write to me at kpravash [at] gmail [dot] com.
