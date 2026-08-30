@@ -6,11 +6,11 @@ tags: [ai-agents, workflow, operating-model]
 image: /images/og-an-operating-system-for-a-team-of-one.png
 ---
 
-My days belong to a full-time product role. Everything in this essay happens outside it: the studio I founded; a mental-health app; a bilingual education site; some infrastructure.
+Alongside a product design role, I build things of my own: the studio I founded; a mental-health app; a bilingual education site; some infrastructure.
 
 For most of 2026 that side of my life has been a team of one plus several AI coding agents: Claude Code in one terminal, Codex in another, sometimes a review model reading over their shoulders.
 
-The agents multiplied what I could ship in those hours, and for a while they multiplied the coordination beyond what chat could hold. Limited hours are exactly why an operating model was worth writing down.
+The agents multiplied what I could ship, and for a while they multiplied the coordination beyond what chat could hold. Limited hours are exactly why an operating model was worth writing down.
 
 I did not set out to run several agents. The second one arrived the day I hit the usage limit on the first subscription with work still to finish. It stayed for a different reason: I had learned I could not fully rely on one agent's account of its own work, so a second model started reading the first one's output before I did.
 
@@ -52,7 +52,7 @@ The one-thing-at-a-time rule governs questions and decisions, not execution: age
 
 The default workflow is strict: inspect, gather the missing context, write the plan, review it for gaps and risks, get explicit approval, execute only that scope, verify, update the records, leave the next restart point clear.
 
-That rigidity broke in practice, because much of this side work is small and reversible, where a written plan is ceremony.
+That rigidity broke in practice, because much of this work is small and reversible, where a written plan is ceremony.
 
 So the model now defines a lighter mode, and defines it precisely: when I ask for it on a low-risk, reversible task, the written plan, the review, and the formal approval may collapse into a one-line stated intent and a go-ahead. Inspecting first, verifying after, and updating the record never drop. Naming the exception was better than pretending it did not exist.
 
@@ -76,6 +76,6 @@ Then the change broke the debug build, because a guard I had asked for fired at 
 
 The recovery worked because ownership, verification, and rollback were already defined, in files, before anything went wrong.
 
-It is not a promise that agents will behave. It is a contract that makes misbehaviour visible fast, and that lets me hold agents to the same standard I want applied to my own work: plan, ask, verify, write it down.
+It is a contract that makes misbehaviour visible fast, and that lets me hold agents to the same standard I want applied to my own work: plan, ask, verify, write it down.
 
 The public edition is on GitHub under CC BY. Fork it, cut what does not fit, and if a rule fails you in a real session, tell me what happened; that is where the rules come from. The system works because the record survives the session, even when the agent does not.
