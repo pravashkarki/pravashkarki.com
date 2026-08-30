@@ -8,7 +8,7 @@ image: /images/og-an-agent-that-lives-in-the-project-management-tool.png
 
 At [LastDoor](https://lastdoorsolutions.com), the studio I founded, the team's agent lives in the project management system, not in a terminal. It is always available, it reads the same task list as everyone else, and it is bounded on purpose: an always-available agent is only safe because of the fence around it, and most of this essay is about the fence.
 
-This is a story about agents and humans working in the same system, not about agents replacing anyone. In [An operating system for a team of one](/posts/an-operating-system-for-a-team-of-one/) I wrote about one person and several agents at a keyboard, on my own time; this is the team's half. The operating rules are shared between the two; the tools, credentials and repositories are not.
+This is a story about agents and humans working in the same system, not about agents replacing anyone. In [An operating system for a team of one](/posts/an-operating-system-for-a-team-of-one/) I wrote about one person and several agents at a keyboard; this is the team's half. The operating rules are shared between the two; the tools, credentials and repositories are not.
 
 The team runs on one project management tool. Every client project is a project there; every piece of work is a to-do with a brief. That was true before any agent arrived, and it is the reason the agent could arrive at all: the task system was already the one place where work is defined, assigned, and closed. The agent was wired into that place, not into a new one.
 
