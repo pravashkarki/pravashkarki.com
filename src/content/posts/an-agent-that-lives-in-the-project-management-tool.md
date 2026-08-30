@@ -48,7 +48,9 @@ The first is webhooks. It subscribes to task and comment events on each project,
 
 The second is chat commands inside allow-listed spaces. Deny by default: the space, the person, and the command must each be allow-listed for that space. Anything that writes asks for a confirmation with a short expiry, matched to the person who asked. Every attempt is logged whether it succeeded or not.
 
-The third is a daily coordination pass, run as a session rather than a daemon. The agent checks every active project against a fixed coordination checklist, then acts within four fixed outcomes: handle it inline, ask one clarifying question and stop, hand it to a specialised workflow, or split off an implementation task for the right tool's list. If a request does not classify cleanly, the rule is fail closed: ask, do not guess.
+The third is a daily coordination pass, run as a session rather than a daemon. The agent checks every active project against a fixed coordination checklist, then acts within four fixed outcomes: handle it inline, ask one clarifying question and stop, hand it to a specialised workflow, or split off an implementation task for the right tool's list.
+
+If a request does not classify cleanly, the rule is fail closed: ask, do not guess.
 
 ## Where the agent stops
 
