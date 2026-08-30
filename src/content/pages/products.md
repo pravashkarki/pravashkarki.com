@@ -1,5 +1,5 @@
 ---
-title: products
+title: Products
 description: Products, apps, themes and open source by Pravash Karki, 2012 to today.
 ---
 

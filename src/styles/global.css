@@ -390,20 +390,68 @@ h3 {
 }
 
 
-/* Home: featured card, intro, projects */
-.featured { display: flex; gap: 1rem; align-items: flex-start; padding: 1rem 1.1rem; border: 1px solid var(--border); border-radius: 12px; text-decoration: none; color: var(--text); margin-bottom: var(--spacing-heading-top-lg); }
-.featured:hover { border-color: var(--text); }
-.featured img { flex: none; width: 2.75rem; height: 2.75rem; }
-.featured strong { display: block; margin-bottom: 0.2rem; }
-.featured span { color: var(--text-muted); font-size: var(--font-sm); }
-.intro h1 { font-size: var(--font-xl); margin-bottom: 0.5rem; }
-.intro { margin-bottom: var(--spacing-heading-top-lg); }
+
+/* ---------- pravashkarki.com theme: rail + content ---------- */
+:root { --display: "Bricolage Grotesque", "Archivo", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace; --marigold: #D98E04; --teal: #1D6A73; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --marigold: #E9A93A; --teal: #63B4BD; } }
+:root[data-theme="dark"] { --marigold: #E9A93A; --teal: #63B4BD; }
+
+body { display: grid; grid-template-columns: 15rem minmax(0, 40rem); column-gap: 4rem; align-content: start; }
+header.rail { grid-column: 1; position: sticky; top: 2rem; align-self: start; display: flex; flex-direction: column; gap: 1.25rem; }
+main { grid-column: 2; margin-top: 0; }
+footer { grid-column: 2; }
+.theme-toggle { position: fixed; top: 1.25rem; right: 1.25rem; }
+
+.lockup { display: block; text-decoration: none; color: var(--text); line-height: 1.05; }
+.lockup-en { display: block; font-family: var(--display); font-weight: 700; font-size: 1.5rem; letter-spacing: -0.01em; }
+.lockup-ne { display: block; font-family: Mukta, sans-serif; font-weight: 600; font-size: 1.35rem; color: var(--marigold); margin-top: 0.25rem; }
+.role { font-family: var(--display); font-size: 0.95rem; color: var(--text-muted); line-height: 1.4; max-width: 14rem; }
+header.rail nav ul.nav-links { display: flex; flex-direction: column; gap: 0.35rem; list-style: none; margin: 0; }
+header.rail nav ul.nav-links a { font-family: var(--display); font-weight: 600; font-size: 1rem; text-decoration: none; color: var(--text); padding: 0.1rem 0; border-left: 2px solid transparent; padding-left: 0.6rem; margin-left: -0.6rem; }
+header.rail nav ul.nav-links a:hover { color: var(--teal); }
+header.rail nav ul.nav-links a[aria-current="page"] { border-left-color: var(--marigold); }
+
+h1, h2, h3, .post-list h2, .products h2 { font-family: var(--display); letter-spacing: -0.01em; }
+.intro h1 { font-size: var(--font-xl); font-weight: 600; line-height: 1.12; margin-bottom: 1rem; max-width: 22ch; }
+.trust { font-family: var(--display); font-size: 0.95rem; color: var(--text-muted); line-height: 1.55; }
+.intro { padding-bottom: 2rem; border-bottom: 1px solid var(--border); margin-bottom: 2.5rem; }
+
+.post-list h2, .products h2 { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1rem; }
+.post-list article { display: grid; grid-template-columns: 6.5rem 1fr; column-gap: 1rem; padding: 1rem 0; border-top: 1px solid var(--border); }
+.post-list article time { font-family: var(--mono); font-size: 0.8rem; color: var(--text-muted); padding-top: 0.35rem; }
+.post-list article h3 { grid-column: 2; font-size: var(--font-lg); font-weight: 600; line-height: 1.2; margin: 0; }
+.post-list article h3 a { text-decoration: none; color: var(--text); }
+.post-list article h3 a:hover { color: var(--teal); }
+.post-list article p.muted { grid-column: 2; margin-top: 0.35rem; font-size: 1rem; }
+.empty { border-top: 1px solid var(--border); padding-top: 1rem; }
+.empty p { margin-bottom: 0.9rem; }
+.button { display: inline-block; font-family: var(--display); font-weight: 600; font-size: 0.95rem; text-decoration: none; color: var(--bg); background: var(--text); padding: 0.55rem 0.95rem; border-radius: 999px; }
+.button:hover { background: var(--teal); }
+
+.products { margin-top: 3rem; }
+.products ul { list-style: none; }
+.products li { display: grid; grid-template-columns: 6.5rem 1fr; column-gap: 1rem; padding: 0.8rem 0; border-top: 1px solid var(--border); }
+.products .year { font-family: var(--mono); font-size: 0.8rem; color: var(--text-muted); padding-top: 0.3rem; }
+.products li a { font-family: var(--display); font-weight: 600; text-decoration: none; color: var(--text); }
+.products li a:hover { color: var(--teal); }
+.products .note { display: block; color: var(--text-muted); font-size: 1rem; }
+.products .more { margin-top: 1rem; font-size: 1rem; }
 .muted { color: var(--text-muted); }
-.post-list article p.muted { font-size: var(--font-sm); margin-top: 0.15rem; }
-.intro p { color: var(--text-muted); }
-.projects { margin-top: var(--spacing-heading-top-lg); }
-.projects h2, .post-list h2 { font-size: var(--font-lg); margin-bottom: var(--spacing-heading-bottom); }
-.projects ul { list-style: none; }
-.projects li { padding: 0.9rem 0; border-top: 1px solid var(--border); }
-.projects li:last-child { border-bottom: 1px solid var(--border); }
-.projects li span { display: block; color: var(--text-muted); font-size: var(--font-sm); margin-top: 0.15rem; }
+
+/* content pages */
+article h1 { font-family: var(--display); font-weight: 600; }
+article h2 { font-family: var(--display); font-weight: 600; font-size: var(--font-lg); }
+article h3 { font-family: var(--display); font-weight: 600; }
+
+@media (max-width: 760px) {
+  body { display: block; }
+  header.rail { position: static; flex-direction: column; gap: 0.75rem; margin-bottom: 2rem; }
+  header.rail nav ul.nav-links { flex-direction: row; gap: 1rem; }
+  header.rail nav ul.nav-links a { border-left: 0; padding-left: 0; margin-left: 0; border-bottom: 2px solid transparent; }
+  header.rail nav ul.nav-links a[aria-current="page"] { border-bottom-color: var(--marigold); }
+  .post-list article, .products li { grid-template-columns: 1fr; }
+  .post-list article h3, .post-list article p.muted { grid-column: 1; }
+  .theme-toggle { position: absolute; }
+}
+header.rail nav ul.nav-links, .products ul { padding-left: 0; margin-left: 0; }
+.empty { border-top: 0; padding-top: 0; }

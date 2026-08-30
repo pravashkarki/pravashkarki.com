@@ -1,5 +1,5 @@
 ---
-title: about
+title: About
 description: Pravash Karki, product designer and technology consultant, Kathmandu. Profile, experience, ventures, teaching, education, skills, community.
 ---
 

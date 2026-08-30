@@ -6,35 +6,44 @@ import { site } from "../config";
 const posts = (await getCollection("posts", ({ data }) => (import.meta.env.PROD ? data.draft !== true : true))).sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime()
 );
+const products = [
+  { href: "/app/mano/", name: "Mano", year: "2026", note: "Offline feelings log for Nepal, in Nepali and English. Coming soon." },
+  { href: "https://pcs.pravashkarki.com", name: "Mano Atlas", year: "2026", note: "Bilingual mental-health education, 29 chapters." },
+  { href: "https://github.com/pravashkarki/inkwell", name: "inkwell", year: "2026", note: "Markdown blog template. This site runs on it." },
+  { href: "https://lastdoorsolutions.com/battigayo/", name: "BattiGayo", year: "2012", note: "The app Nepal used to plan around load shedding." },
+];
 ---
 
 <Base title={site.title} description={site.description}>
   <section class="intro">
-    <h1>Pravash Karki</h1>
-    <p>Product designer and technology consultant in Kathmandu, Nepal. Twenty years across graphic and web design, front-end, SEO, brand strategy and enterprise product design. Founder of <a href="https://lastdoorsolutions.com">LastDoor</a>; currently consulting for Highstep Technologies (USA); training as a psychosocial counselor. <a href="/about/">Full profile</a> · <a href="/products/">Products</a></p>
+    <h1>Twenty years of making things people can use. Now writing about it.</h1>
+    <p class="trust">Founder of <a href="https://lastdoorsolutions.com">LastDoor</a> since 2006 · consulting on an enterprise data platform for Highstep Technologies (USA) · 5.0 across 71 client reviews · MSc, London Metropolitan University · training as a psychosocial counselor.</p>
   </section>
 
-  <section class="post-list">
+  <section class="post-list" id="essays">
     <h2>Essays</h2>
-    {posts.length === 0 && <p class="muted">First essays are being written. Subscribe by <a href="/rss.xml">RSS</a>.</p>}
+    {posts.length === 0 && (
+      <div class="empty">
+        <p>The first essays are being written: on design that stays out of the way, on building software from Kathmandu for the world, and on mental health in Nepal.</p>
+        <p><a class="button" href="/rss.xml">Get them first by RSS</a></p>
+      </div>
+    )}
     {posts.map((post) => (
       <article>
+        <time datetime={post.data.date.toISOString().slice(0, 10)}>{post.data.date.toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "2-digit" })}</time>
         <h3><a href={`/posts/${post.id}/`}>{post.data.title}</a></h3>
-        <time datetime={post.data.date.toISOString().slice(0, 10)}>
-          {post.data.date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-        </time>
         <p class="muted">{post.data.description}</p>
       </article>
     ))}
   </section>
 
-  <section class="projects">
+  <section class="products">
     <h2>Products</h2>
     <ul>
-      <li><a href="/app/mano/">Mano</a><span>Free offline app for noticing how you feel, Nepali and English. Android and iOS, coming soon.</span></li>
-      <li><a href="https://pcs.pravashkarki.com">Mano Atlas</a><span>Bilingual mental-health education from the CTEVT Psychosocial Counselor course.</span></li>
-      <li><a href="https://github.com/pravashkarki/inkwell">inkwell</a><span>Open-source Markdown blog template. This site runs on it.</span></li>
-      <li><a href="/products/">All products and open source</a><span>BattiGayo, Medibook, Sampression themes, Neptees, and more.</span></li>
+      {products.map((p) => (
+        <li><span class="year">{p.year}</span><span><a href={p.href}>{p.name}</a><span class="note">{p.note}</span></span></li>
+      ))}
     </ul>
+    <p class="muted more"><a href="/products/">All products and open source</a></p>
   </section>
 </Base>

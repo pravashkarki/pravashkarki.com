@@ -29,7 +29,7 @@ const headingFont = (fs === "serif" || fs === "sans") ? ff[fs] : fs === "sans+se
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <link rel="icon" href="/mark.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Mukta:wght@400;600;700&family=IBM+Plex+Mono:wght@400&display=swap" />
     {description && <meta name="description" content={description} />}
     <link rel="canonical" href={pageUrl} />
     <meta property="og:title" content={title} />
@@ -104,9 +104,13 @@ const headingFont = (fs === "serif" || fs === "sans") ? ff[fs] : fs === "sans+se
       <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
       <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
     </button>
-    <header>
+    <header class="rail">
+      <a class="lockup" href="/" aria-label="Pravash Karki, home">
+        <span class="lockup-en">Pravash Karki</span>
+        <span class="lockup-ne" lang="ne">प्रवाश कार्की</span>
+      </a>
+      <p class="role">Product designer and technology consultant, Kathmandu.</p>
       <nav aria-label="Main navigation">
-        <a href="/">{site.name}</a>
         {nav.length > 0 && (
           <ul class="nav-links">
             {nav.map((link: { label: string; href: string; external?: boolean }) => (
@@ -128,7 +132,7 @@ const headingFont = (fs === "serif" || fs === "sans") ? ff[fs] : fs === "sans+se
       <slot />
     </main>
     <footer>
-      <p>© Pravash Karki · kpravash [at] gmail [dot] com</p>
+      <p>© Pravash Karki · kpravash [at] gmail [dot] com · <a href="/rss.xml">RSS</a></p>
     </footer>
     <script>
       // Theme toggle

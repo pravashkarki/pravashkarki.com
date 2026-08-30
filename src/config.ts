@@ -11,8 +11,9 @@ export const site = {
 };
 
 export const nav = [
-  { label: "about", href: "/about" },
-  { label: "products", href: "/products" },
+  { label: "Essays", href: "/#essays" },
+  { label: "Products", href: "/products" },
+  { label: "About", href: "/about" },
 ];
 
 export const tokens_ = tokens;
