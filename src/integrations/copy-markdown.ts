@@ -36,6 +36,7 @@ export function copyMarkdownFiles(): AstroIntegration {
         const outDir = join(dir.pathname, "posts");
 
         await mkdir(outDir, { recursive: true });
+        try { await stat(contentDir); } catch { return; } // no posts yet
         await copyDir(contentDir, outDir);
       },
     },

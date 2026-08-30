@@ -397,6 +397,9 @@ h3 {
 .featured strong { display: block; margin-bottom: 0.2rem; }
 .featured span { color: var(--text-muted); font-size: var(--font-sm); }
 .intro h1 { font-size: var(--font-xl); margin-bottom: 0.5rem; }
+.intro { margin-bottom: var(--spacing-heading-top-lg); }
+.muted { color: var(--text-muted); }
+.post-list article p.muted { font-size: var(--font-sm); margin-top: 0.15rem; }
 .intro p { color: var(--text-muted); }
 .projects { margin-top: var(--spacing-heading-top-lg); }
 .projects h2, .post-list h2 { font-size: var(--font-lg); margin-bottom: var(--spacing-heading-bottom); }
