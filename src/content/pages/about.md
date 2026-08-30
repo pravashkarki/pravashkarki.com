@@ -5,11 +5,11 @@ description: Pravash Karki, HCI-certified product designer and technology consul
 
 ## Profile
 
-Product designer and technology consultant with over 20 years of experience spanning graphic and web design, front-end development, SEO, brand strategy, and enterprise product design. Currently working on design and strategy for a US-based enterprise data operations platform at [Highstep Technologies](https://highstep.com), with product and engineering; that is the full-time role and where my working hours go. Everything else on this page, the studio, the products, the essays, is side work done on evenings and weekends. Founder of LastDoor, a design and technology practice serving clients worldwide since 2006, with a 5.0-rated freelance record of 3,400+ hours on [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f). Holder of UK degrees (MSc with Merit; BSc with Upper Second Class Honours), former university lecturer, and an active open-source and design community contributor. Currently training as a [psychosocial counselor](https://pcs.pravashkarki.com) (CTEVT), which is where [Mano](/products/) comes from.
+Product designer and technology consultant with over 20 years of experience spanning graphic and web design, front-end development, SEO, brand strategy, and enterprise product design. Currently leading design and strategy for a US-based enterprise data operations platform at [Highstep Technologies](https://highstep.com) as an independent consultant; that is the full-time role and where my working hours go. Everything else on this page, the studio, the products, the essays, is side work done on evenings and weekends. Founder of LastDoor, a design and technology practice serving clients worldwide since 2006, with a 5.0-rated freelance record of 3,400+ hours on [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f). Holder of UK degrees (MSc with Merit; BSc with Upper Second Class Honours), former university lecturer, and an active open-source and design community contributor. Currently training as a [psychosocial counselor](https://pcs.pravashkarki.com) (CTEVT), which is where [Mano](/products/) comes from.
 
 ## Working with me
 
-My working hours belong to my full-time role, so I am not taking new consulting work, and I am not building a waiting list. If you want to talk anyway, write and say what you are trying to change; I will tell you honestly if I can point you somewhere useful.
+My working hours belong to my full-time role, so I am not taking new consulting work right now. If you are thinking about AI automation or technology consulting for later, write to me and say what you are trying to change; I read everything and will tell you honestly whether and when I can help.
 
 ## Experience
 
@@ -17,14 +17,15 @@ My working hours belong to my full-time role, so I am not taking new consulting 
 
 Remote consulting engagement under contract.
 
-- Design and strategy for an enterprise data operations platform: product direction, user experience, and cross-functional collaboration with product and engineering.
-- Design work carried through to implementation detail, in collaboration with engineering.
+- Leading the design and strategy for a new enterprise data operations platform: product direction, user experience, and cross-functional collaboration.
+- Bridging design leadership with hands-on execution to deliver a scalable solution for enterprise clients.
+- Ongoing technology consulting: UI/UX design, software development, website design and development, delivered fully remotely.
 
 **Founder, LastDoor (Last Door Solutions Pvt Ltd)** · April 2006 to present
 
 Design-driven technology practice specialising in B2B enterprise-grade Drupal and WordPress design and development for international clients. Incorporated 2011; day-to-day operations now led by a dedicated CEO.
 
-- Brand strategy, verbal and visual identity, web design and development, AI automation, technology consulting, and ongoing client support.
+- Brand strategy, verbal and visual identity, web design and development, AI automation, and ongoing client support.
 - Freelance design and development for international clients through Upwork: 81 completed contracts, 3,400+ hours delivered, a 5.0 rating across 71 client reviews.
 
 **Creative Designer Associate, Digital Max Solutions, Kathmandu** · September 2007 to June 2009
@@ -81,7 +82,7 @@ London Metropolitan University (UK) partner institution. Supervised final-year p
 
 ## Core skills
 
-Enterprise product design and strategy; UX research and prototyping; design systems; AI automation in small-team and studio workflows; enterprise CMS (Drupal, WordPress); front-end engineering; security-minded design.
+Enterprise product design and strategy; UX research and prototyping; design systems; AI automation in enterprise workflows; enterprise CMS (Drupal, WordPress); front-end engineering; security-minded design.
 
 ## Selected projects and open source
 
