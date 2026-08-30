@@ -19,6 +19,10 @@ Open-source blog template for serious writers. Markdown files are the source of 
 
 The load-shedding schedule app Nepalis at home and abroad used to plan around power cuts, published by Idealaya and featured in national media. Retired in 2018 when load shedding ended in Nepal. [The story](https://lastdoorsolutions.com/battigayo/) · [Republica coverage](https://myrepublica.nagariknetwork.com/news/made-in-nepal-apps-for-your-smartphones) · [Lex Limbu, Nepali Apps (2013)](https://lexlimbu.com/blog/2013/01/07/nepali-apps/) · [battigayo.com, archived](http://web.archive.org/web/20180805192921/http://battigayo.com/)
 
+## Web Design in Figma, free course in Nepali (2020)
+
+The Ultimate Guide to Mastering Web Design in Figma: a 7-part webinar series recorded from live Zoom trainings during the lockdown, for more than 500 participants, to help people learn a real skill and earn with it. Still relevant. [Watch on YouTube](https://www.youtube.com/watch?v=Hgc9krfkWhU&list=PLj8vIOn4nekuq38j-nu0H0UaVBX8Kxh9M)
+
 ## Medibook
 
 Digital health platform for booking and managing medical appointments.

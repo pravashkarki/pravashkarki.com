@@ -46,6 +46,11 @@ Various roles with international teams. Began as a graphic designer at a printin
 
 ## Teaching
 
+**[The Ultimate Guide to Mastering Web Design in Figma](https://www.youtube.com/watch?v=Hgc9krfkWhU&list=PLj8vIOn4nekuq38j-nu0H0UaVBX8Kxh9M)**, free course in Nepali, 7 parts · 2020
+
+Recorded from a live Zoom training series I ran during the lockdown for more than 500 participants, so people could use that time to learn a real skill and earn with it. The material still holds; it is on [YouTube](https://www.youtube.com/@pravkarki).
+
+
 **Lecturer, Herald College Kathmandu** · February 2022 to January 2023
 
 University of Wolverhampton (UK) partner institution, BSc (Hons) Computer Science programme. Module leader for Human-Computer Interaction; lectured and delivered various modules; prepared lesson plans and study-guide material; worked within international university rules and regulations from academic and administrative perspectives.
@@ -98,6 +103,6 @@ Nepali (native) · English (full professional proficiency; postgraduate educatio
 
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/pravasho/) · [GitHub](https://github.com/pravashkarki/) · [Facebook](https://www.facebook.com/prav.karki/) · [WordPress.org](https://profiles.wordpress.org/pravco/) · [Drupal.org](https://www.drupal.org/u/pravashkarki) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f)
+[LinkedIn](https://www.linkedin.com/in/pravasho/) · [GitHub](https://github.com/pravashkarki/) · [Facebook](https://www.facebook.com/prav.karki/) · [YouTube](https://www.youtube.com/@pravkarki) · [WordPress.org](https://profiles.wordpress.org/pravco/) · [Drupal.org](https://www.drupal.org/u/pravashkarki) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f)
 
 Write to me at kpravash [at] gmail [dot] com.
