@@ -14,6 +14,7 @@ export const nav = [
   { label: "Essays", href: "/#essays" },
   { label: "Products", href: "/products" },
   { label: "About", href: "/about" },
+  { label: "CV", href: "/cv" },
 ];
 
 export const tokens_ = tokens;
