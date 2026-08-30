@@ -475,8 +475,5 @@ article p { margin-bottom: 1.1rem; }
 article h2 { margin-top: 2.6rem; }
 article h3 { margin-top: 1.6rem; }
 
-/* Off-ramp at the end of an essay */
-.offramp { margin-top: 2.5rem; padding: 1rem 1.1rem; border: 1px solid var(--border); border-radius: 12px; font-size: 1rem; color: var(--text-muted); max-width: 60ch; }
-.offramp strong { color: var(--text); font-family: var(--display); font-weight: 600; }
 /* Section separators: a short marigold rule above each section heading */
 article h2::before { content: ""; display: block; width: 2.25rem; height: 3px; background: var(--marigold); margin-bottom: 0.7rem; border-radius: 2px; }
