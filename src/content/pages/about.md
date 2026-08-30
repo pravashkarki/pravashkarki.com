@@ -7,6 +7,10 @@ description: Pravash Karki, HCI-certified product designer and technology consul
 
 Product designer and technology consultant with over 20 years of experience spanning graphic and web design, front-end development, SEO, brand strategy, and enterprise product design. Currently leading design and strategy for a US-based enterprise data operations platform ([Highstep Technologies](https://highstep.com)) as an independent consultant, working fully remotely for international clients. Founder of LastDoor, a design and technology practice serving clients worldwide since 2006, with a 5.0-rated freelance record of 3,400+ hours on [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f). Holder of UK degrees (MSc with Merit; BSc with Upper Second Class Honours), former university lecturer, and an active open-source and design community contributor. Currently training as a [psychosocial counselor](https://pcs.pravashkarki.com) (CTEVT), which is where [Mano](/products/) comes from.
 
+## Working with me
+
+I am on a full-time engagement, so I am not taking new consulting work right now. If you are thinking about AI automation or technology consulting for later, write to me and say what you are trying to change; I read everything and will tell you honestly whether and when I can help.
+
 ## Experience
 
 **Product Designer (Consultant), [Highstep Technologies Inc.](https://highstep.com), New Jersey, USA** · May 2025 to present
