@@ -15,6 +15,10 @@ Free bilingual mental-health education: 29 chapters from the CTEVT Psychosocial 
 
 Open-source blog template for serious writers. Markdown files are the source of truth; every page is served as clean HTML for people and as raw Markdown for AI crawlers. This site runs on it. [github.com/pravashkarki/inkwell](https://github.com/pravashkarki/inkwell)
 
+## Agent Operating System (2026)
+
+A written operating model for working with AI coding agents (Claude Code, Codex and others) as a small team with one human owner: plan-first workflow, decision boundaries, session procedures, agent-to-agent conflict rules, cost budgets, rollback, and a file layout that keeps project memory outside chat. Used daily since April 2026; published as a sanitised edition under CC BY 4.0. [github.com/pravashkarki/agent-operating-system](https://github.com/pravashkarki/agent-operating-system)
+
 ## Prasuv (2026)
 
 Multi-system astrology API for developers: fourteen astrological systems behind one endpoint, built for accurate calculations without the complexity, plus a web app. [prasuv.com](https://prasuv.com) · [app.prasuv.com](https://app.prasuv.com)
