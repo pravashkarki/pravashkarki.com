@@ -89,6 +89,6 @@ Nepali (native) · English (full professional proficiency; postgraduate educatio
 
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/pravkarki) · [GitHub](https://github.com/pravashkarki) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f) · [The Doers Nepal podcast: The fall and rise of a tech entrepreneur](https://thedoersnepal.podbean.com/e/the-fall-and-rise-of-tech-entrepreneur-pravash-karki/) · [Podcast: Remote work is the future, how anyone can start earning from home (YouTube)](https://www.youtube.com/watch?v=uOu3kEZrpZA)
+[LinkedIn](https://www.linkedin.com/in/pravkarki) · [GitHub](https://github.com/pravashkarki) · [WordPress.org](https://profiles.wordpress.org/pravco/) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f) · [The Doers Nepal podcast: The fall and rise of a tech entrepreneur](https://thedoersnepal.podbean.com/e/the-fall-and-rise-of-tech-entrepreneur-pravash-karki/) · [Podcast: Remote work is the future, how anyone can start earning from home (YouTube)](https://www.youtube.com/watch?v=uOu3kEZrpZA)
 
 Write to me at kpravash [at] gmail [dot] com.
