@@ -27,6 +27,10 @@ The load-shedding schedule app Nepalis at home and abroad used to plan around po
 
 The Ultimate Guide to Mastering Web Design in Figma: a 7-part webinar series recorded from live Zoom trainings during the lockdown, for more than 500 participants, to help people learn a real skill and earn with it. Still relevant. [Watch on YouTube](https://www.youtube.com/watch?v=Hgc9krfkWhU&list=PLj8vIOn4nekuq38j-nu0H0UaVBX8Kxh9M)
 
+## Password Gen
+
+A small random password generator that runs entirely in the browser: pick the length and character sets, copy, done. Nothing is stored or sent. [passgen-bay.vercel.app](https://passgen-bay.vercel.app/)
+
 ## Medibook
 
 Digital health platform for booking and managing medical appointments.
