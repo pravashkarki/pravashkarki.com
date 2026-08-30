@@ -1,3 +1,6 @@
 {
-  "ignoreCommand": "! git log -1 --pretty=%B | grep -q '\\[build\\]'"
+  "ignoreCommand": "! git log -1 --pretty=%B | grep -q '\\[build\\]'",
+  "redirects": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.pravashkarki.com" }], "destination": "https://pravashkarki.com/$1", "permanent": true }
+  ]
 }
