@@ -5,13 +5,13 @@ description: Pravash Karki, HCI-certified product designer and technology consul
 
 ## Profile
 
-Product designer and technology consultant with over 20 years of experience spanning graphic and web design, front-end development, SEO, brand strategy, and enterprise product design. Currently leading design and strategy for a US-based enterprise data operations platform ([Highstep Technologies](https://highstep.com)) as an independent consultant, working fully remotely from Kathmandu for international clients. Founder of LastDoor, a design and technology practice serving clients worldwide since 2006, with a 5.0-rated freelance record of 3,400+ hours on [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f). Holder of UK degrees (MSc with Merit; BSc with Upper Second Class Honours), former university lecturer, and an active open-source and design community contributor. Currently training as a [psychosocial counselor](https://pcs.pravashkarki.com) (CTEVT), which is where [Mano](/products/) comes from.
+Product designer and technology consultant with over 20 years of experience spanning graphic and web design, front-end development, SEO, brand strategy, and enterprise product design. Currently leading design and strategy for a US-based enterprise data operations platform ([Highstep Technologies](https://highstep.com)) as an independent consultant, working fully remotely for international clients. Founder of LastDoor, a design and technology practice serving clients worldwide since 2006, with a 5.0-rated freelance record of 3,400+ hours on [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f). Holder of UK degrees (MSc with Merit; BSc with Upper Second Class Honours), former university lecturer, and an active open-source and design community contributor. Currently training as a [psychosocial counselor](https://pcs.pravashkarki.com) (CTEVT), which is where [Mano](/products/) comes from.
 
 ## Experience
 
 **Product Designer (Consultant), [Highstep Technologies Inc.](https://highstep.com), New Jersey, USA** · May 2025 to present
 
-Remote consulting engagement under contract, Kathmandu.
+Remote consulting engagement under contract.
 
 - Leading the design and strategy for a new enterprise data operations platform: product direction, user experience, and cross-functional collaboration.
 - Bridging design leadership with hands-on execution to deliver a scalable solution for enterprise clients.
