@@ -407,7 +407,7 @@ footer { grid-column: 2; }
 .lockup-ne { display: block; font-family: Mukta, sans-serif; font-weight: 600; font-size: 1.35rem; color: var(--marigold); margin-top: 0.25rem; }
 .role { font-family: var(--display); font-size: 0.95rem; color: var(--text-muted); line-height: 1.4; max-width: 14rem; }
 header.rail nav ul.nav-links { display: flex; flex-direction: column; gap: 0.35rem; list-style: none; margin: 0; }
-header.rail nav ul.nav-links a { font-family: var(--display); font-weight: 600; font-size: 1rem; text-decoration: none; color: var(--text); padding: 0.1rem 0; border-left: 2px solid transparent; padding-left: 0.6rem; margin-left: -0.6rem; }
+header.rail nav ul.nav-links a { font-family: var(--display); font-weight: 600; font-size: 1rem; text-decoration: none; color: var(--text); padding: 0.1rem 0; border-left: 2px solid transparent; padding-left: 0.75rem; margin-left: -0.75rem; }
 header.rail nav ul.nav-links a:hover { color: var(--teal); }
 header.rail nav ul.nav-links a[aria-current="page"] { border-left-color: var(--marigold); }
 
