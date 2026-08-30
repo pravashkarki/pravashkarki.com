@@ -1,7 +1,8 @@
 ---
 title: the stoic case for doing hard things
 date: 2025-11-18
-description: Comfort is the enemy of growth. The Stoics understood this 2000 years ago.
+description: comfort is the enemy of growth. the Stoics understood this 2000 years ago.
+tags: [philosophy, thinking]
 ---
 
 <figure>
@@ -9,54 +10,54 @@ description: Comfort is the enemy of growth. The Stoics understood this 2000 yea
   <figcaption>Photo by <a href="https://unsplash.com/@kalenemsley" target="_blank" rel="noopener noreferrer">Kalen Emsley</a> on <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
-Marcus Aurelius ruled the Roman Empire. He could have lived in pure comfort. Instead, he slept on a hard bed, ate simple food, and wrote in his journal every morning about how to be a better person.
+Marcus Aurelius ruled the Roman Empire. he could have lived in pure comfort. instead, he slept on a hard bed, ate simple food, and wrote in his journal every morning about how to be a better person.
 
-He was not punishing himself. He was **training** himself.
+he was not punishing himself. he was **training** himself.
 
-## Voluntary discomfort
+## voluntary discomfort
 
-The Stoics practiced what they called *voluntary discomfort*. Cold baths, fasting, sleeping on the floor. Not because suffering is good. Because the fear of discomfort controls most people's lives.
+the Stoics practiced what they called *voluntary discomfort*. cold baths, fasting, sleeping on the floor. not because suffering is good. because the fear of discomfort controls most people's lives.
 
-> We suffer more often in imagination than in reality.
+> we suffer more often in imagination than in reality.
 >
 > <cite>Seneca</cite>
 
-When you choose discomfort, it loses its power over you.
+when you choose discomfort, it loses its power over you.
 
-## The comfort trap
+## the comfort trap
 
-Every convenience makes you slightly more fragile:
+every convenience makes you slightly more fragile:
 
-- You stop cooking and forget how
-- You stop walking and lose stamina
-- You avoid hard conversations and lose the ability to have them
-- You never sit in silence and lose the ability to think
+- you stop cooking and forget how
+- you stop walking and lose stamina
+- you avoid hard conversations and lose the ability to have them
+- you never sit in silence and lose the ability to think
 
-Comfort compounds in the **wrong direction**.
+comfort compounds in the **wrong direction**.
 
-## Small practices
+## small practices
 
-You do not need to become a monk. Small things work:
+you do not need to become a monk. small things work:
 
-| Practice | Frequency | Why it works |
+| practice | frequency | why it works |
 |---|---|---|
-| Cold shower | Once a week | Builds tolerance to discomfort |
-| Skip a meal | Occasionally | Proves nothing bad happens |
-| Write first thing | Daily | Overcomes resistance |
-| Hard conversation | When needed | Builds emotional resilience |
+| cold shower | once a week | builds tolerance to discomfort |
+| skip a meal | occasionally | proves nothing bad happens |
+| write first thing | daily | overcomes resistance |
+| hard conversation | when needed | builds emotional resilience |
 
-### The two-minute rule
+### the two-minute rule
 
-When you notice yourself avoiding something, give it two minutes. Just two. Start the cold shower for two minutes. Write the first two sentences. Two minutes of discomfort is almost always manageable. And almost always, you keep going.
+when you notice yourself avoiding something, give it two minutes. just two. start the cold shower for two minutes. write the first two sentences. two minutes of discomfort is almost always manageable. and almost always, you keep going.
 
 ---
 
-## The reward
+## the reward
 
-> The impediment to action advances action. What stands in the way becomes the way.
+> the impediment to action advances action. what stands in the way becomes the way.
 >
 > <cite>Marcus Aurelius</cite>
 
-The Stoics did not do hard things to be miserable. They did hard things to be *free*. Free from the fear of losing comfort. Free from the anxiety of what might go wrong.
+the Stoics did not do hard things to be miserable. they did hard things to be *free*. free from the fear of losing comfort. free from the anxiety of what might go wrong.
 
-When you know you can handle discomfort, you stop arranging your entire life to avoid it. That is freedom.
+when you know you can handle discomfort, you stop arranging your entire life to avoid it. that is freedom.

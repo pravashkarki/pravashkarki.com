@@ -1,16 +1,17 @@
 ---
 title: markdown for writers
 date: 2026-02-07
-description: A plain text format that gets out of your way. Everything you need to know in five minutes.
+description: a plain text format that gets out of your way. everything you need to know in five minutes.
+tags: [writing, inkwell]
 ---
 
-Markdown is how you write for the web without touching HTML. It is plain text with a few simple rules. You already know most of them.
+markdown is how you write for the web without touching HTML. it is plain text with a few simple rules. you already know most of them.
 
-## The basics
+## the basics
 
-### Headings
+### headings
 
-Use `#` symbols. More symbols, smaller heading:
+use `#` symbols. more symbols, smaller heading:
 
 ```
 ## Section heading
@@ -18,33 +19,33 @@ Use `#` symbols. More symbols, smaller heading:
 #### Small heading
 ```
 
-### Emphasis
+### emphasis
 
-Wrap text in asterisks:
+wrap text in asterisks:
 
 - `*italic*` becomes *italic*
 - `**bold**` becomes **bold**
 - `***bold italic***` becomes ***bold italic***
 
-### Links
+### links
 
 ```
 [link text](https://example.com)
 ```
 
-Becomes: [link text](https://example.com)
+becomes: [link text](https://example.com)
 
-### Images
+### images
 
 ```
 ![Alt text describing the image](/images/photo.jpg)
 ```
 
-Always write meaningful alt text. It helps screen readers and shows when images fail to load.
+always write meaningful alt text. it helps screen readers and shows when images fail to load.
 
-## Lists
+## lists
 
-### Unordered
+### unordered
 
 ```
 - First item
@@ -52,11 +53,11 @@ Always write meaningful alt text. It helps screen readers and shows when images 
 - Third item
 ```
 
-- First item
-- Second item
-- Third item
+- first item
+- second item
+- third item
 
-### Ordered
+### ordered
 
 ```
 1. First step
@@ -64,21 +65,21 @@ Always write meaningful alt text. It helps screen readers and shows when images 
 3. Third step
 ```
 
-1. First step
-2. Second step
-3. Third step
+1. first step
+2. second step
+3. third step
 
-## Blockquotes
+## blockquotes
 
-Use `>` at the start of a line:
+use `>` at the start of a line:
 
 ```
 > This is a quote.
 ```
 
-> This is a quote.
+> this is a quote.
 
-Add attribution with `<cite>`:
+add attribution with `<cite>`:
 
 ```
 > The only way to do great work is to love what you do.
@@ -86,15 +87,15 @@ Add attribution with `<cite>`:
 > <cite>Steve Jobs</cite>
 ```
 
-> The only way to do great work is to love what you do.
+> the only way to do great work is to love what you do.
 >
 > <cite>Steve Jobs</cite>
 
-## Code
+## code
 
-Inline code uses backticks: `like this`.
+inline code uses backticks: `like this`.
 
-Code blocks use triple backticks:
+code blocks use triple backticks:
 
 ````
 ```
@@ -104,7 +105,7 @@ function hello() {
 ```
 ````
 
-## Tables
+## tables
 
 ```
 | Left | Center | Right |
@@ -113,14 +114,14 @@ function hello() {
 | D | E | F |
 ```
 
-| Left | Center | Right |
+| left | center | right |
 |---|:---:|---:|
 | A | B | C |
 | D | E | F |
 
-## Horizontal rules
+## horizontal rules
 
-Three dashes on their own line:
+three dashes on their own line:
 
 ```
 ---
@@ -128,9 +129,9 @@ Three dashes on their own line:
 
 ---
 
-## Images with captions
+## images with captions
 
-For images with captions, use HTML `<figure>`:
+for images with captions, use HTML `<figure>`:
 
 ```html
 <figure>
@@ -141,11 +142,11 @@ For images with captions, use HTML `<figure>`:
 
 ---
 
-## Why Markdown?
+## why markdown?
 
-- **Portable.** Plain text works everywhere, forever
-- **Fast.** No menus, no formatting toolbars, no mouse clicks
-- **Focused.** You think about words, not styling
-- **Version controlled.** Git tracks every change
+- **portable.** plain text works everywhere, forever
+- **fast.** no menus, no formatting toolbars, no mouse clicks
+- **focused.** you think about words, not styling
+- **version controlled.** git tracks every change
 
-You are reading a page written in Markdown right now. Append `.md` to this URL to see the source.
+you are reading a page written in markdown right now. append `.md` to this URL to see the source.

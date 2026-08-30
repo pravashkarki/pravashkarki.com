@@ -1,7 +1,8 @@
 ---
 title: the art of doing less
 date: 2026-01-14
-description: Productivity is not about doing more. It is about doing what matters.
+description: productivity is not about doing more. it is about doing what matters.
+tags: [productivity, thinking]
 ---
 
 <figure>
@@ -9,38 +10,38 @@ description: Productivity is not about doing more. It is about doing what matter
   <figcaption>Photo by <a href="https://unsplash.com/@nickmorrison" target="_blank" rel="noopener noreferrer">Nick Morrison</a> on <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
-Most productivity advice is about *adding*. More tools, more systems, more habits. But the people who get the most done have a different approach. They **remove**.
+most productivity advice is about *adding*. more tools, more systems, more habits. but the people who get the most done have a different approach. they **remove**.
 
-> Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+> perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
 >
 > <cite>Antoine de Saint-Exupery</cite>
 
-## The subtraction principle
+## the subtraction principle
 
-Every task you say yes to is a task you chose over something else. The question is never "can I do this?" It is always "is this the **best use** of my time right now?"
+every task you say yes to is a task you chose over something else. the question is never "can i do this?" it is always "is this the **best use** of my time right now?"
 
-Warren Buffett keeps a not-to-do list. It is longer than his to-do list. That is not a coincidence.
+Warren Buffett keeps a not-to-do list. it is longer than his to-do list. that is not a coincidence.
 
-## Three questions before any task
+## three questions before any task
 
-Before starting something, ask:
+before starting something, ask:
 
-1. What happens if I **don't** do this at all?
-2. Am I the only person who can do this?
-3. Does this move the needle on what matters most?
+1. what happens if i **don't** do this at all?
+2. am i the only person who can do this?
+3. does this move the needle on what matters most?
 
-If the answer to all three is no, it probably does not belong on your list.
+if the answer to all three is no, it probably does not belong on your list.
 
-## The myth of busy
+## the myth of busy
 
-Being busy is not the same as being productive. Busy is answering every email within five minutes. Productive is spending three hours on the *one thing* that changes everything.
+being busy is not the same as being productive. busy is answering every email within five minutes. productive is spending three hours on the *one thing* that changes everything.
 
-> The difference between successful people and very successful people is that very successful people say no to almost everything.
+> the difference between successful people and very successful people is that very successful people say no to almost everything.
 >
 > <cite>Warren Buffett</cite>
 
 ---
 
-## Start here
+## start here
 
-Pick one thing from your list today. The one that matters most. Do that first. Everything else can wait. Most of it will not matter by next week anyway.
+pick one thing from your list today. the one that matters most. do that first. everything else can wait. most of it will not matter by next week anyway.

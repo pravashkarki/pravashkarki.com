@@ -1,14 +1,25 @@
 ---
 import "../styles/global.css";
-import { site, colors, tokens_ as t } from "../config";
+import { site, nav, colors, tokens_ as t } from "../config";
 
 interface Props {
   title: string;
   description?: string;
   mdUrl?: string;
+  image?: string;
+  canonicalUrl?: string;
+  slug?: string;
 }
 
-const { title, description, mdUrl } = Astro.props;
+const { title, description, mdUrl, image, canonicalUrl, slug } = Astro.props;
+const pageUrl = canonicalUrl || new URL(Astro.url.pathname, site.url).href;
+const autoOgImage = slug ? new URL(`/og/${slug}.png`, site.url).href : undefined;
+const ogImage = image ? new URL(image, site.url).href : autoOgImage;
+
+const ff = t.typography.fontFamily as Record<string, string>;
+const fs = t.typography.fontStack;
+const bodyFont = (fs === "serif" || fs === "sans") ? ff[fs] : fs === "sans+serif" ? ff.serif : ff.sans;
+const headingFont = (fs === "serif" || fs === "sans") ? ff[fs] : fs === "sans+serif" ? ff.sans : ff.serif;
 ---
 
 <!doctype html>
@@ -18,6 +29,18 @@ const { title, description, mdUrl } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={pageUrl} />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:type" content={mdUrl ? "article" : "website"} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? "summary_large_image" : "summary"} />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
+    <link rel="alternate" type="application/rss+xml" title={site.name} href="/rss.xml" />
     {mdUrl && <link rel="alternate" type="text/markdown" href={mdUrl} />}
     <style set:html={`
       :root {
@@ -27,14 +50,15 @@ const { title, description, mdUrl } = Astro.props;
         --link: ${colors.light.link};
         --border: ${colors.light.border};
         --code-bg: ${colors.light.codeBg};
-        --font-family: ${t.typography.fontFamily[t.typography.fontStack as keyof typeof t.typography.fontFamily]};
+        --font-family: ${bodyFont};
+        --font-heading: ${headingFont};
         --font-sm: ${t.typography.scale.sm};
         --font-md: ${t.typography.scale.md};
         --font-lg: ${t.typography.scale.lg};
         --font-xl: ${t.typography.scale.xl};
-        --font-body: var(--font-${t.typography.body});
+        --font-body: ${t.typography.bodySize};
         --line-height: ${t.typography.lineHeight};
-        --font-code: ${t.typography.code};
+        --font-code: ${t.typography.codeSize};
         --spacing-body: ${t.spacing.body};
         --max-width: ${t.spacing.maxWidth};
         --spacing-main-top: ${t.spacing.mainTop};
@@ -47,7 +71,7 @@ const { title, description, mdUrl } = Astro.props;
         --radius-pre: ${t.radii.pre};
       }
       @media (prefers-color-scheme: dark) {
-        :root {
+        :root:not([data-theme="light"]) {
           --text: ${colors.dark.text};
           --text-muted: ${colors.dark.textMuted};
           --bg: ${colors.dark.bg};
@@ -56,13 +80,46 @@ const { title, description, mdUrl } = Astro.props;
           --code-bg: ${colors.dark.codeBg};
         }
       }
+      :root[data-theme="dark"] {
+        --text: ${colors.dark.text};
+        --text-muted: ${colors.dark.textMuted};
+        --bg: ${colors.dark.bg};
+        --link: ${colors.dark.link};
+        --border: ${colors.dark.border};
+        --code-bg: ${colors.dark.codeBg};
+      }
     `} />
+    <script is:inline>
+      (function() {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
     <header>
-      <nav aria-label="Site">
+      <nav aria-label="Main navigation">
         <a href="/">{site.name}</a>
+        {nav.length > 0 && (
+          <ul class="nav-links">
+            {nav.map((link: { label: string; href: string; external?: boolean }) => (
+              <li>
+                <a
+                  href={link.href}
+                  {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  {...(Astro.url.pathname.startsWith(link.href) ? { "aria-current": "page" } : {})}
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
       </nav>
     </header>
     <main id="main">
@@ -71,5 +128,59 @@ const { title, description, mdUrl } = Astro.props;
     <footer>
       <p>The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.</p>
     </footer>
+    <script>
+      // Theme toggle
+      const toggle = document.querySelector('.theme-toggle');
+      const root = document.documentElement;
+
+      function getTheme() {
+        return localStorage.getItem('theme') || 'system';
+      }
+
+      function applyTheme(theme) {
+        if (theme === 'dark') {
+          root.setAttribute('data-theme', 'dark');
+        } else if (theme === 'light') {
+          root.setAttribute('data-theme', 'light');
+        } else {
+          root.removeAttribute('data-theme');
+        }
+      }
+
+      applyTheme(getTheme());
+
+      toggle?.addEventListener('click', () => {
+        const current = getTheme();
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        let next;
+        if (current === 'system') {
+          next = prefersDark ? 'light' : 'dark';
+        } else {
+          next = 'system';
+        }
+        localStorage.setItem('theme', next);
+        applyTheme(next);
+      });
+
+      // Copy button
+      document.querySelectorAll('article pre').forEach((pre) => {
+        const btn = document.createElement('button');
+        btn.className = 'copy-btn';
+        btn.textContent = 'copy';
+        btn.setAttribute('aria-label', 'Copy code to clipboard');
+        btn.addEventListener('click', () => {
+          const code = pre.querySelector('code');
+          navigator.clipboard.writeText((code || pre).textContent || '').then(() => {
+            btn.textContent = 'copied';
+            btn.setAttribute('aria-label', 'Code copied to clipboard');
+            setTimeout(() => {
+              btn.textContent = 'copy';
+              btn.setAttribute('aria-label', 'Copy code to clipboard');
+            }, 1500);
+          });
+        });
+        pre.appendChild(btn);
+      });
+    </script>
   </body>
 </html>

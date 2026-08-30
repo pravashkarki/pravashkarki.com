@@ -3,6 +3,8 @@ dist/
 .astro/
 .vercel/
 .claude/
+CLAUDE.md
 .DS_Store
 *.log
 GIT_GUIDELINES.md
+.inkwell

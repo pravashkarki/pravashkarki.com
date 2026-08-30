@@ -1,74 +1,67 @@
 ---
 title: what is inkwell
 date: 2026-03-16
-description: A minimal blog template for serious writers. Here is what you get.
+description: a minimal blog template for serious writers. here is what you get.
+tags: [inkwell]
 ---
 
-Inkwell is a blog template. You write in Markdown, push to GitHub, and your site publishes itself. No CMS, no database, no complexity.
+inkwell is a blog template for people who want to write, not manage infrastructure. you write in markdown, push to GitHub, and your site publishes itself. no CMS, no database, no complexity.
 
-## features
+## why inkwell
 
-- **Markdown-first.** Your posts are `.md` files. That is it
-- **AI-crawler friendly.** Every page is available as raw Markdown. Append `.md` to any URL
-- **Light and dark mode.** Follows the reader's system setting automatically
-- **Design tokens.** All colors, typography, and spacing in one `token.json` file
-- **Figma sync.** Export tokens from Figma, drop into `token.json`, rebuild
-- **Conditional deploys.** Only builds when your commit says `[build]`
+most blog tools do too much. they come with dashboards, plugins, databases, and configuration that gets in the way of writing. inkwell does the opposite. it gives you a clean writing surface and gets out of the way.
 
-## four color schemes
+inkwell started as a personal blog. the need was simple: a place to write and publish without friction. over time it became a template that anyone can use to do the same thing.
 
-Inkwell ships with four schemes. Set `"scheme"` in `token.json` to switch.
+if you want to write and publish on your own domain with zero overhead, inkwell is for you.
 
-| scheme | hue | mood |
-|---|---|---|
-| **warm** | amber | cozy, inviting |
-| **cool** | blue | clean, professional |
-| **mono** | neutral | classic, no color |
-| **forest** | green | calm, natural |
+## what you get
 
-All schemes use **OKLCH** colors for perceptual uniformity. Each has a light and dark variant.
+### writing
+- **markdown posts.** write in any text editor. no special syntax to learn.
+- **tags.** organize posts by topic. tag pages are generated automatically.
+- **drafts.** mark a post as draft and it stays hidden until you are ready.
+- **reading time.** estimated from word count, shown on every post.
+- **post navigation.** previous and next links at the bottom of each post.
+- **image support.** drop images alongside your post. folder-per-post structure keeps things tidy.
+- **pagination.** homepage paginates automatically as your posts grow.
 
-### how OKLCH works
+### design
+- **four color schemes.** warm, cool, mono, and forest. each with automatic light and dark mode.
+- **two font stacks.** serif or sans. or mix them: sans headings with serif body, or the reverse.
+- **typography scale.** change the body size and headings scale proportionally.
+- **hot reload.** design changes update instantly in the browser during development.
 
-`oklch(L C H)` where:
+### sharing
+- **social cards.** every post renders properly when shared on Twitter, LinkedIn, or anywhere else.
+- **auto-generated images.** a 1200x630 preview image is created for each post. no manual work needed.
+- **RSS feed.** readers can subscribe at `/rss.xml`.
+- **canonical URLs.** set on every page. supports cross-posting without SEO penalties.
 
-- **L** (lightness) flips between light and dark mode
-- **C** (chroma) stays low for muted, readable tones
-- **H** (hue) sets the personality of the scheme
+### for AI crawlers
+- **raw markdown.** every post is available as markdown. append `.md` to any URL.
+- **llms.txt.** a site manifest for AI crawlers at `/llms.txt`.
+- **posts.json.** structured data for every post at `/posts.json`.
 
-To create your own scheme, pick a hue angle and follow the pattern in `token.json`. See the [theming guide](https://github.com/pravashkarki/inkwell/blob/main/docs/THEMING.md) for details.
+### SEO
+- **sitemap.** auto-generated and submitted to search engines.
+- **robots.txt.** configured out of the box.
+- **semantic HTML.** clean, accessible markup throughout.
 
-## typography scale
+## setup tools
 
-Four sizes defined once, used everywhere:
+inkwell comes with CLI tools so you never have to dig through config files.
 
-| token | size | used for |
-|---|---|---|
-| `sm` | 0.875rem | dates, metadata |
-| `md` | 1.125rem | body text, h3 |
-| `lg` | 1.5rem | h2 headings |
-| `xl` | 2rem | h1 headings |
+- **`pnpm ik:setup`** walks you through site name, colors, font, and deployment.
+- **`pnpm ik:new`** creates a new post with the right structure.
+- **`pnpm ik:theme`** switches color schemes.
+- **`pnpm ik:deploy`** deploys to Vercel, Cloudflare Pages, or Netlify.
+- **`pnpm ik:analytics`** adds Google Analytics running in a web worker so it does not slow down your site.
 
-Change `"body"` in `token.json` to set the base reading size. Change any scale value and it updates across the entire site.
+## conditional deploys
 
-## the .md pattern
-
-> Websites now have a third audience: AI crawlers. Serving clean Markdown versions of every page helps them read content better.
-
-Every post on this site has two versions:
-
-- `/posts/what-is-inkwell/` serves HTML for humans
-- `/posts/what-is-inkwell.md` serves raw Markdown for AI crawlers
-
-The HTML includes a `<link rel="alternate" type="text/markdown">` tag so crawlers discover the Markdown version automatically.
+only commits with `[build]` in the message trigger a deploy. push drafts and work-in-progress freely without publishing to your live site.
 
 ---
 
-## get started
-
-1. Use the [template on GitHub](https://github.com/pravashkarki/inkwell)
-2. Edit two files: `token.json` for design, `src/config.ts` for identity
-3. Write your first post
-4. Push and publish
-
-That is it. Write, push, publish.
+write, push, publish. that is inkwell.

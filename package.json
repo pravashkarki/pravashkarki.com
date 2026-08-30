@@ -8,9 +8,27 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "ik:new": "node scripts/new-post.js",
+    "ik:setup": "node scripts/setup.js",
+    "ik:theme": "node scripts/theme.js",
+    "ik:deploy": "node scripts/deploy.js",
+    "ik:migrate": "node scripts/migrate.js",
+    "ik:analytics": "node scripts/analytics.js"
   },
   "dependencies": {
-    "astro": "^5.7.0"
-  }
+    "@astrojs/partytown": "^2.1.6",
+    "@astrojs/rss": "^4.0.17",
+    "@astrojs/sitemap": "^3.7.1",
+    "astro": "^5.7.0",
+    "satori": "^0.26.0",
+    "sharp": "^0.34.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp",
+      "esbuild"
+    ]
+  },
+  "packageManager": "pnpm@10.30.0+sha512.2b5753de015d480eeb88f5b5b61e0051f05b4301808a82ec8b840c9d2adf7748eb352c83f5c1593ca703ff1017295bc3fdd3119abb9686efc96b9fcb18200937"
 }
