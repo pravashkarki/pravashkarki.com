@@ -15,7 +15,7 @@ const { title, description, mdUrl, image, canonicalUrl, slug } = Astro.props;
 const built = new Date().toLocaleDateString("en-GB", { year: "numeric", month: "long", day: "numeric" });
 const pageUrl = canonicalUrl || new URL(Astro.url.pathname, site.url).href;
 const autoOgImage = slug ? new URL(`/og/${slug}.png`, site.url).href : undefined;
-const ogImage = image ? new URL(image, site.url).href : autoOgImage;
+const ogImage = image ? new URL(image, site.url).href : (autoOgImage ?? new URL('/og-default.png', site.url).href);
 
 const ff = t.typography.fontFamily as Record<string, string>;
 const fs = t.typography.fontStack;
@@ -30,6 +30,22 @@ const headingFont = (fs === "serif" || fs === "sans") ? ff[fs] : fs === "sans+se
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <link rel="icon" href="/mark.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#F3F4EE" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#12181A" media="(prefers-color-scheme: dark)" />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "Person", "@id": "https://pravashkarki.com/#person", "name": "Pravash Karki", "alternateName": "प्रभाष कार्की", "url": "https://pravashkarki.com/",
+          "jobTitle": "Product designer and technology consultant", "description": "HCI-certified product designer and technology consultant. Founder of LastDoor; maker of Mano and Mano Atlas.",
+          "worksFor": [{ "@type": "Organization", "name": "Highstep Technologies", "url": "https://highstep.com" }, { "@type": "Organization", "name": "LastDoor", "url": "https://lastdoorsolutions.com" }],
+          "alumniOf": [{ "@type": "CollegeOrUniversity", "name": "London Metropolitan University" }],
+          "hasCredential": { "@type": "EducationalOccupationalCredential", "name": "Professional Certificate in Human-Computer Interaction", "recognizedBy": { "@type": "Organization", "name": "Georgia Institute of Technology" }, "url": "https://credentials.edx.org/credentials/7906d7bb5f9944e3a57630d86cf49196/" },
+          "sameAs": ["https://github.com/pravashkarki/", "https://www.linkedin.com/in/pravasho/", "https://www.facebook.com/prav.karki/", "https://www.youtube.com/@pravkarki", "https://www.upwork.com/freelancers/~0153c9090872bf885f", "https://profiles.wordpress.org/pravco/", "https://www.drupal.org/u/pravashkarki"] },
+        { "@type": "WebSite", "@id": "https://pravashkarki.com/#website", "url": "https://pravashkarki.com/", "name": "Pravash Karki", "publisher": { "@id": "https://pravashkarki.com/#person" }, "inLanguage": "en" }
+      ]
+    })} />
     <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Mukta:wght@400;600;700&family=IBM+Plex+Mono:wght@400&display=swap" />
     {description && <meta name="description" content={description} />}
     <link rel="canonical" href={pageUrl} />
