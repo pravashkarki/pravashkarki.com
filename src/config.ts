@@ -6,7 +6,7 @@ import tokens from "../token.json";
 export const site = {
   name: "Pravash Karki",
   title: "Pravash Karki",
-  description: "Pravash Karki: product designer and technology consultant in Kathmandu. Essays, products, and twenty years of design and technology work.",
+  description: "Pravash Karki: HCI-certified product designer and technology consultant in Kathmandu. Essays, products, and twenty years of design and technology work.",
   url: "https://pravashkarki.com",
 };
 
