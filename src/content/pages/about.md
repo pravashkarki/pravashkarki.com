@@ -5,11 +5,11 @@ description: Pravash Karki, product designer and technology consultant, Kathmand
 
 ## Profile
 
-Product designer and technology consultant with over 20 years of experience spanning graphic and web design, front-end development, SEO, brand strategy, and enterprise product design. Currently leading design and strategy for a US-based enterprise data operations platform as an independent consultant, working fully remotely from Kathmandu for international clients. Founder of LastDoor, a design and technology practice serving clients worldwide since 2006, with a 5.0-rated freelance record of 3,400+ hours on Upwork. Holder of UK degrees (MSc with Merit; BSc with Upper Second Class Honours), former university lecturer, and an active open-source and design community contributor. Currently training as a psychosocial counselor (CTEVT), which is where [Mano](/products/) comes from.
+Product designer and technology consultant with over 20 years of experience spanning graphic and web design, front-end development, SEO, brand strategy, and enterprise product design. Currently leading design and strategy for a US-based enterprise data operations platform ([Highstep Technologies](https://highstep.com)) as an independent consultant, working fully remotely from Kathmandu for international clients. Founder of LastDoor, a design and technology practice serving clients worldwide since 2006, with a 5.0-rated freelance record of 3,400+ hours on [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f). Holder of UK degrees (MSc with Merit; BSc with Upper Second Class Honours), former university lecturer, and an active open-source and design community contributor. Currently training as a psychosocial counselor (CTEVT), which is where [Mano](/products/) comes from.
 
 ## Experience
 
-**Product Designer (Consultant), Highstep Technologies Inc., New Jersey, USA** · May 2025 to present
+**Product Designer (Consultant), [Highstep Technologies Inc.](https://highstep.com), New Jersey, USA** · May 2025 to present
 
 Remote consulting engagement under contract, Kathmandu.
 
