@@ -15,6 +15,10 @@ Free bilingual mental-health education: 29 chapters from the CTEVT Psychosocial 
 
 Open-source blog template for serious writers. Markdown files are the source of truth; every page is served as clean HTML for people and as raw Markdown for AI crawlers. This site runs on it. [github.com/pravashkarki/inkwell](https://github.com/pravashkarki/inkwell)
 
+## Prasuv (2026)
+
+Multi-system astrology API for developers: fourteen astrological systems behind one endpoint, built for accurate calculations without the complexity, plus a web app. [prasuv.com](https://prasuv.com) · [app.prasuv.com](https://app.prasuv.com)
+
 ## BattiGayo (iOS, 2012 to 2018)
 
 The load-shedding schedule app Nepalis at home and abroad used to plan around power cuts, published by Idealaya and featured in national media. Retired in 2018 when load shedding ended in Nepal. [The story](https://lastdoorsolutions.com/battigayo/) · [Republica coverage](https://myrepublica.nagariknetwork.com/news/made-in-nepal-apps-for-your-smartphones) · [Lex Limbu, Nepali Apps (2013)](https://lexlimbu.com/blog/2013/01/07/nepali-apps/) · [battigayo.com, archived](http://web.archive.org/web/20180805192921/http://battigayo.com/)

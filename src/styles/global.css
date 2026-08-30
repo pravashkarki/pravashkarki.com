@@ -462,3 +462,12 @@ header.rail nav ul.nav-links, .products ul { padding-left: 0; margin-left: 0; }
 @media (max-width: 760px) { .social { flex-direction: row; flex-wrap: wrap; gap: 0.25rem 1rem; margin-top: 0; } }
 .social a, header.rail nav ul.nav-links a { display: inline-block; padding-block: 0.3rem; min-height: 24px; }
 .theme-toggle { min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+
+/* Rail fills the viewport on desktop so the meta sits at the bottom */
+@media (min-width: 761px) {
+  header.rail { min-height: calc(100vh - 4rem); }
+  .rail-meta { margin-top: auto; font-family: var(--mono); font-size: 0.72rem; line-height: 1.6; color: var(--text-muted); }
+  .rail-meta a { color: var(--text-muted); text-decoration: none; }
+  footer { display: none; }
+}
+@media (max-width: 760px) { .rail-meta { display: none; } }
