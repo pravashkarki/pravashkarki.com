@@ -10,6 +10,8 @@ We cleaned a compromised WordPress site this week. Then it got reinfected within
 
 The original breach was from 2020. A vulnerable plugin gave attackers remote code execution. They planted a cryptominer and left. Or so we thought.
 
+## The first failure
+
 What they actually left behind were 18 PHP files scattered across WordPress core directories. Each one sat inside a random numbered folder, something like `wp-includes/fonts/449548/index.php`, looking like something WordPress had put there. Each one fetched code from external servers and executed it silently: a persistent remote access layer that survived for ten months without anyone noticing.
 
 We ran the standard cleanup. Verified core checksums. Everything came back clean.

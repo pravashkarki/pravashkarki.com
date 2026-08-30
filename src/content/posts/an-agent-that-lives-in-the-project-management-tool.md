@@ -6,11 +6,11 @@ tags: [ai-agents, operating-model, tooling]
 image: /images/og-an-agent-that-lives-in-the-project-management-tool.png
 ---
 
-At [LastDoor](https://lastdoorsolutions.com) the team's agent lives in the project management system, not in a terminal. It is always available, it reads the same task list as everyone else, and it is bounded on purpose. [The first essay](/posts/an-operating-system-for-a-team-of-one/) was about one person and several agents at a keyboard; this is the other half.
+At [LastDoor](https://lastdoorsolutions.com) the team's agent lives in the project management system, not in a terminal. It is always available, it reads the same task list as everyone else, and it is bounded on purpose: an always-available agent is only safe because of the fence around it, and most of this essay is about the fence. [The first essay](/posts/an-operating-system-for-a-team-of-one/) was about one person and several agents at a keyboard; this is the other half.
 
 The team runs on one project management tool. Every client project is a project there; every piece of work is a to-do with a brief. That was true before any agent arrived, and it is the reason the agent could arrive at all: the task system was already the one place where work is defined, assigned, and closed. The agent was wired into that place, not into a new one.
 
-The second precondition was an existing internal wiki. How the team works, how each client's site is set up, what was decided and why. For years it was a discipline we kept for ourselves. It turned out to be the thing that makes an AI agent useful at all. Give a bare AI tool access to a project and it has no idea what the project is; give it the wiki and the task list, and it can read a task against the project's documented history and constraints. The documentation stopped being a nice-to-have and became the rule: nothing gets wired to an agent, by webhook or by API, without the written context that tells the agent what it is looking at.
+The second precondition was an existing internal wiki. How the team works, how each client's site is set up, what was decided and why. For years it was a discipline we kept for ourselves. It turned out to be the thing that made the agent useful here. Give a bare AI tool access to a project and it has no idea what the project is; give it the wiki and the task list, and it can read a task against the project's documented history and constraints. The documentation stopped being a nice-to-have and became the rule: nothing gets wired to an agent, by webhook or by API, without the written context that tells the agent what it is looking at.
 
 ## One place for tasks
 
@@ -34,7 +34,7 @@ AI is wired in where judgement is needed and nowhere else. The tools themselves 
 
 The first is webhooks: it subscribes to task and comment events on each project, deduplicates them, and turns them into notifications where the team talks, and turns actions in the chat back into task updates.
 
-The second is chat commands inside allow-listed spaces. Deny by default: the space must be on the list, the person must be on the list for that space, and the command must be in that space's scope. Anything that writes asks for a confirmation with a short expiry, matched to the person who asked. Every attempt is logged whether it succeeded or not.
+The second is chat commands inside allow-listed spaces. Deny by default: the space, the person, and the command must each be allow-listed for that space. Anything that writes asks for a confirmation with a short expiry, matched to the person who asked. Every attempt is logged whether it succeeded or not.
 
 The third is a daily coordination pass, run as a session rather than a daemon: the agent checks every active project against a fixed coordination checklist, then acts within four fixed outcomes. Handle it inline. Ask one clarifying question and stop. Hand it to a specialised workflow. Or split off an implementation task for the right tool's list. If a request does not classify cleanly, the rule is fail closed: ask, do not guess.
 
@@ -42,7 +42,15 @@ The third is a daily coordination pass, run as a session rather than a daemon: t
 
 The coordination agent may read, summarise, ask, assign, comment, run checks, and set dates. It may not patch code, open pull requests, or touch finance, HR, or deployment, even when a team member asks for exactly that in a thread. Those requests become tasks on the right list for a person or a scoped agent to pick up. Outside its boundary, the agent records the request and declines.
 
-The customer-facing piece on the messaging channel has its own fence, enforced by checks rather than by hoping the model behaves: no code or tutorials, no promised prices, no pretending to be human, no engaging with spam, no leaking its own instructions. It has a kill switch, a daily spend cap, per-conversation turn limits, rate limits, a response timeout, and a circuit breaker that pauses it after repeated failures. When a guardrail fires, the person is handed to a human.
+The customer-facing piece on the messaging channel has its own fence, enforced by checks rather than by hoping the model behaves: no code or tutorials, no promised prices, no pretending to be human, no engaging with spam, no leaking its own instructions. Its limits, each enforced in code:
+
+- a kill switch
+- a daily spend cap
+- per-conversation turn limits and per-sender rate limits
+- a response timeout and a maximum response length
+- a circuit breaker that pauses it after repeated failures
+
+When a guardrail fires, the person is handed to a human.
 
 ## Two identities, kept apart by the vault
 
@@ -50,7 +58,7 @@ The agent and I both post to the project management tool, and we are not the sam
 
 ## Tools are not projects
 
-The boundary that took longest to learn was between tools and projects. A tool is reusable code with a defined scope. A project is a client engagement, tracked on the board and in notes. A client's one-off data never goes into a tool's code; a tool's secrets are keyed to the tool, never to a client; client work goes on the client's project, never on an internal tool's list. When a new ask arrives the first question is which of the three it is: a new tool, a new project, or work inside one that exists. Most of the time it is the third, and the temptation to build a tool for it is the thing to resist.
+One more line that took longest to learn: a tool is reusable code with a defined scope; a project is a client engagement, tracked on the board and in notes. A client's data never goes into a tool's code, a tool's secrets are keyed to the tool and never to a client, and client work goes on the client's project. When a new ask arrives, the first question is whether it is a new tool, a new project, or work inside one that exists. It is almost always the third.
 
 ## What this buys
 
