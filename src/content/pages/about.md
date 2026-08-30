@@ -7,9 +7,9 @@ description: Pravash Karki, HCI-certified product designer and technology consul
 
 Product designer and technology consultant. Twenty years across graphic and web design, front-end development, SEO, brand strategy and enterprise product design.
 
-Full time, I lead design and strategy for a US enterprise data operations platform at [Highstep Technologies](https://highstep.com), as an independent consultant. That is where my working hours go.
+I lead design and strategy for a US enterprise data operations platform at [Highstep Technologies](https://highstep.com), as an independent consultant.
 
-The rest of this page is what I have built and keep building alongside it: [LastDoor](https://lastdoorsolutions.com), the studio I founded in 2006; the products; the essays.
+Alongside it: [LastDoor](https://lastdoorsolutions.com), the studio I founded in 2006; the products; the essays.
 
 Two UK degrees (MSc with Merit, BSc with Upper Second Class Honours). Former university lecturer. Open-source contributor since 2010.
 
@@ -19,7 +19,7 @@ Training as a [psychosocial counselor](https://pcs.pravashkarki.com) (CTEVT). Th
 
 ## Working with me
 
-Not taking new consulting work right now; my working hours belong to my full-time role.
+Not taking new consulting work right now.
 
 Thinking about AI automation or technology consulting for later? Write and say what you are trying to change. I read everything, and I will tell you honestly whether and when I can help.
 
@@ -52,7 +52,7 @@ European IT outsourcing company. Web design from initial concept and strategy th
 
 Began as a graphic designer at a printing company. Expanded into web design, front-end development, SEO and digital marketing.
 
-Worked full time with international teams at Best Commerce Tools (US) and Tarsus plc (UK, now part of Informa). Later shifted toward business development: finding opportunities, pitching, building client relationships.
+Worked with international teams at Best Commerce Tools (US) and Tarsus plc (UK, now part of Informa). Later shifted toward business development: finding opportunities, pitching, building client relationships.
 
 ## Entrepreneurial ventures
 
