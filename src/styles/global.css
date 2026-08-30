@@ -466,8 +466,5 @@ header.rail nav ul.nav-links, .products ul { padding-left: 0; margin-left: 0; }
 /* Rail fills the viewport on desktop so the meta sits at the bottom */
 @media (min-width: 761px) {
   header.rail { min-height: calc(100vh - 4rem); }
-  .rail-meta { margin-top: auto; font-family: var(--mono); font-size: 0.72rem; line-height: 1.6; color: var(--text-muted); }
-  .rail-meta a { color: var(--text-muted); text-decoration: none; }
-  footer { display: none; }
+  .social { margin-top: auto; }
 }
-@media (max-width: 760px) { .rail-meta { display: none; } }
