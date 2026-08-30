@@ -25,7 +25,7 @@ Digital health platform for booking and managing medical appointments.
 
 ## Sampression WordPress themes (since 2012)
 
-Free themes on the official WordPress.org directory, co-founded as Sampression: Sampression Lite, Naya Lite, Finedine. [profiles.wordpress.org/sampression](https://profiles.wordpress.org/sampression/)
+Free themes on the official WordPress.org directory, co-founded as Sampression: Sampression Lite, Naya Lite, Finedine. [profiles.wordpress.org/pravco](https://profiles.wordpress.org/pravco/)
 
 ## Neptees
 
