@@ -142,6 +142,9 @@ const headingFont = (fs === "serif" || fs === "sans") ? ff[fs] : fs === "sans+se
       <p>© Pravash Karki · kpravash [at] gmail [dot] com · <a href="/rss.xml">RSS</a> · Last updated {built}</p>
     </footer>
     <script>
+      // External links open in a new tab
+      document.querySelectorAll('a[href^="http"]').forEach((a) => { if (a.hostname !== location.hostname) { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener noreferrer'); } });
+
       // Theme toggle
       const toggle = document.querySelector('.theme-toggle');
       const root = document.documentElement;
