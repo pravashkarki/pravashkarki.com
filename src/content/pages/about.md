@@ -68,7 +68,7 @@ London Metropolitan University (UK) partner institution. Supervised final-year p
 
 ## Licences and certifications
 
-- **Professional Certification: Human-Computer Interaction**, Georgia Institute of Technology, May 2023. UX research and needfinding, prototyping and rapid iteration, and related HCI competencies.
+- **[Professional Certificate: Human-Computer Interaction](https://credentials.edx.org/credentials/7906d7bb5f9944e3a57630d86cf49196/)**, Georgia Institute of Technology (edX), May 2023. UX research and needfinding, prototyping and rapid iteration, and related HCI competencies.
 - **Early professional training**, PUD Computer Training and Service Center, Kathmandu, 2003 to 2004: Diploma in Webpage Designing; Windows with Applications.
 
 ## Core skills
