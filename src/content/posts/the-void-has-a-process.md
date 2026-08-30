@@ -3,6 +3,7 @@ title: The void has a process
 date: 2026-04-26
 description: "We cleaned a compromised WordPress site and it was reinfected within a day. Two failures: trusting a tool with a question it was never built to answer, and treating incident response as finished once our own site was clean."
 tags: [security, wordpress, incident-response]
+image: /images/og-the-void-has-a-process.png
 ---
 
 We cleaned a compromised WordPress site this week. Then it got reinfected within 24 hours.
