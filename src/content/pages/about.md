@@ -42,11 +42,12 @@ Various roles with international teams. Began as a graphic designer at a printin
 
 ## Entrepreneurial ventures
 
-- **Aurum Orbit**: co-founder, 2024.
+- **[Aurum Orbit](https://aurumorbit.com)**: co-founder, 2024.
 - **Neptees**, Kathmandu: co-founder. Graphic tees made in Nepal, [neptees.com](https://neptees.com).
-- **Idealaya**, Kathmandu: co-founder, 2012. Web design and digital marketing agency; publisher of the BattiGayo app.
-- **Last Door Solutions**, Kathmandu: founder, 2011.
-- **Sampression**: co-founder. Free WordPress themes on WordPress.org.
+- **[Idealaya](https://www.idealaya.com)**, Kathmandu: co-founder, 2012. Web design and digital marketing agency; publisher of the BattiGayo and Medibook apps.
+- **[Last Door Solutions](https://lastdoorsolutions.com)**, Kathmandu: founder, 2011.
+- **Nepal Made Crafts**: founder, 2012. Online shop for handmade products from Nepal, felt and craft goods, retail and wholesale ([archived site, 2012](https://web.archive.org/web/20120130053028/http://nepalmadecrafts.com/) · [Facebook](https://www.facebook.com/nepalmadecrafts)).
+- **[Sampression](https://sampression.com)**: co-founder. Free WordPress themes on WordPress.org.
 
 ## Teaching
 

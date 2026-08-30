@@ -25,7 +25,7 @@ Multi-system astrology API for developers: fourteen astrological systems behind 
 
 ## BattiGayo (iOS, 2012 to 2018)
 
-The load-shedding schedule app Nepalis at home and abroad used to plan around power cuts, published by Idealaya and featured in national media. Retired in 2018 when load shedding ended in Nepal. [The story](https://lastdoorsolutions.com/battigayo/) · [Republica coverage](https://myrepublica.nagariknetwork.com/news/made-in-nepal-apps-for-your-smartphones) · [Lex Limbu, Nepali Apps (2013)](https://lexlimbu.com/blog/2013/01/07/nepali-apps/) · [battigayo.com, archived](http://web.archive.org/web/20180805192921/http://battigayo.com/)
+The load-shedding schedule app Nepalis at home and abroad used to plan around power cuts, published by [Idealaya](https://www.idealaya.com) and featured in national media. Retired in 2018 when load shedding ended in Nepal. [The story](https://lastdoorsolutions.com/battigayo/) · [Republica coverage](https://myrepublica.nagariknetwork.com/news/made-in-nepal-apps-for-your-smartphones) · [Lex Limbu, Nepali Apps (2013)](https://lexlimbu.com/blog/2013/01/07/nepali-apps/) · [battigayo.com, archived](http://web.archive.org/web/20180805192921/http://battigayo.com/)
 
 ## Web Design in Figma, free course in Nepali (2020)
 
@@ -37,11 +37,21 @@ A small random password generator that runs entirely in the browser: pick the le
 
 ## Medibook
 
-Digital health platform for booking and managing medical appointments.
+Digital health platform for booking and managing medical appointments, published by [Idealaya](https://www.idealaya.com).
 
 ## Sampression WordPress themes (since 2012)
 
 Free themes on the official WordPress.org directory, co-founded as Sampression: Sampression Lite (2012, 200+ active installs), Naya Lite (2014), Finedine (2015, restaurants and food). WordPress.org member since 2012. [profiles.wordpress.org/pravco](https://profiles.wordpress.org/pravco/)
+
+## Hike for Nepal, campaign branding
+
+Identity, print and t-shirts for the Hike for Nepal campaign, screen-printed by hand.
+
+![Hike for Nepal t-shirts on the screen-printing table and finished, in blue with the white mountain mark](/images/hike-for-nepal-tshirt-screen-printing.jpg)
+
+## Nepal Made Crafts (2012)
+
+Online shop for handmade products from Nepal: felt and craft goods, retail and wholesale. [Archived site, 2012](https://web.archive.org/web/20120130053028/http://nepalmadecrafts.com/) · [Facebook](https://www.facebook.com/nepalmadecrafts)
 
 ## Neptees
 
