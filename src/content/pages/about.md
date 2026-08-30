@@ -9,7 +9,7 @@ Product designer and technology consultant. Twenty years across graphic and web 
 
 Full time, I lead design and strategy for a US enterprise data operations platform at [Highstep Technologies](https://highstep.com), as an independent consultant. That is where my working hours go.
 
-Everything else on this page is side work, on evenings and weekends: the studio I founded in 2006, [LastDoor](https://lastdoorsolutions.com), now run day to day by its CEO; the products; the essays.
+The rest of this page is what I have built and keep building alongside it: [LastDoor](https://lastdoorsolutions.com), the studio I founded in 2006; the products; the essays.
 
 Two UK degrees (MSc with Merit, BSc with Upper Second Class Honours). Former university lecturer. Open-source contributor since 2010.
 

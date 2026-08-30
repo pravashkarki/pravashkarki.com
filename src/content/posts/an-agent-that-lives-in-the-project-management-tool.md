@@ -6,7 +6,7 @@ tags: [ai-agents, operating-model, tooling]
 image: /images/og-an-agent-that-lives-in-the-project-management-tool.png
 ---
 
-At [LastDoor](https://lastdoorsolutions.com), the studio I founded and which its CEO runs day to day, the team's agent lives in the project management system, not in a terminal. It is always available, it reads the same task list as everyone else, and it is bounded on purpose: an always-available agent is only safe because of the fence around it, and most of this essay is about the fence.
+At [LastDoor](https://lastdoorsolutions.com), the studio I founded, the team's agent lives in the project management system, not in a terminal. It is always available, it reads the same task list as everyone else, and it is bounded on purpose: an always-available agent is only safe because of the fence around it, and most of this essay is about the fence.
 
 This is a story about agents and humans working in the same system, not about agents replacing anyone. In [An operating system for a team of one](/posts/an-operating-system-for-a-team-of-one/) I wrote about one person and several agents at a keyboard, on my own time; this is the team's half. The operating rules are shared between the two; the tools, credentials and repositories are not.
 

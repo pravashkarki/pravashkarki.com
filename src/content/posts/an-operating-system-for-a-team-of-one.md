@@ -6,7 +6,7 @@ tags: [ai-agents, workflow, operating-model]
 image: /images/og-an-operating-system-for-a-team-of-one.png
 ---
 
-My days belong to a full-time product role. Everything in this essay happens outside it, on evenings and weekends: the studio I founded, which its CEO runs day to day; a mental-health app; a bilingual education site; some infrastructure.
+My days belong to a full-time product role. Everything in this essay happens outside it: the studio I founded; a mental-health app; a bilingual education site; some infrastructure.
 
 For most of 2026 that side of my life has been a team of one plus several AI coding agents: Claude Code in one terminal, Codex in another, sometimes a review model reading over their shoulders.
 
