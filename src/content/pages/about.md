@@ -90,6 +90,7 @@ Nepali (native) · English (full professional proficiency; postgraduate educatio
 ## Press and talks
 
 - Republica: [Made-in-Nepal apps for your smartphones](https://myrepublica.nagariknetwork.com/news/made-in-nepal-apps-for-your-smartphones), on BattiGayo (16,000 downloads at the time, about 1,000 a week) and app development in Nepal.
+- Lex Limbu: [Nepali Apps](https://lexlimbu.com/blog/2013/01/07/nepali-apps/) (January 2013), BattiGayo picked as "a pakka solution" for load-shedding schedules.
 - BattiGayo, as it was: [battigayo.com in the Wayback Machine (2018)](http://web.archive.org/web/20180805192921/http://battigayo.com/).
 - The Doers Nepal podcast: [The fall and rise of a tech entrepreneur](https://thedoersnepal.podbean.com/e/the-fall-and-rise-of-tech-entrepreneur-pravash-karki/) (June 2024), also [on YouTube](https://www.youtube.com/watch?v=X6apcX_cWh8).
 - WordCamp Kathmandu organising team: [2017](https://kathmandu.wordcamp.org/2017/organizers/) · [2018](https://kathmandu.wordcamp.org/2018/organizers/).
