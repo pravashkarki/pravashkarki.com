@@ -5,11 +5,23 @@ description: Pravash Karki, HCI-certified product designer and technology consul
 
 ## Profile
 
-Product designer and technology consultant with over 20 years of experience spanning graphic and web design, front-end development, SEO, brand strategy, and enterprise product design. Currently leading design and strategy for a US-based enterprise data operations platform at [Highstep Technologies](https://highstep.com) as an independent consultant; that is the full-time role and where my working hours go. Everything else on this page, the studio, the products, the essays, is side work done on evenings and weekends. Founder of LastDoor, a design and technology practice serving clients worldwide since 2006, with a 5.0-rated freelance record of 3,400+ hours on [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f). Holder of UK degrees (MSc with Merit; BSc with Upper Second Class Honours), former university lecturer, and an active open-source and design community contributor. Currently training as a [psychosocial counselor](https://pcs.pravashkarki.com) (CTEVT), which is where [Mano](/products/) comes from.
+Product designer and technology consultant. Twenty years across graphic and web design, front-end development, SEO, brand strategy and enterprise product design.
+
+Full time, I lead design and strategy for a US enterprise data operations platform at [Highstep Technologies](https://highstep.com), as an independent consultant. That is where my working hours go.
+
+Everything else on this page is side work, on evenings and weekends: the studio I founded in 2006, [LastDoor](https://lastdoorsolutions.com), now run day to day by its CEO; the products; the essays.
+
+Two UK degrees (MSc with Merit, BSc with Upper Second Class Honours). Former university lecturer. Open-source contributor since 2010.
+
+A 5.0 rating across 71 client reviews and 3,400+ hours on [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f).
+
+Training as a [psychosocial counselor](https://pcs.pravashkarki.com) (CTEVT). That is where [Mano](/products/) comes from.
 
 ## Working with me
 
-My working hours belong to my full-time role, so I am not taking new consulting work right now. If you are thinking about AI automation or technology consulting for later, write to me and say what you are trying to change; I read everything and will tell you honestly whether and when I can help.
+Not taking new consulting work right now; my working hours belong to my full-time role.
+
+Thinking about AI automation or technology consulting for later? Write and say what you are trying to change. I read everything, and I will tell you honestly whether and when I can help.
 
 ## Experience
 
@@ -23,7 +35,7 @@ Remote consulting engagement under contract.
 
 **Founder, LastDoor** · April 2006 to present
 
-Design-driven technology practice specialising in B2B enterprise-grade Drupal and WordPress design and development for international clients. Incorporated 2011; day-to-day operations now led by a dedicated CEO.
+Design-driven technology practice: enterprise-grade Drupal and WordPress for international clients. Incorporated 2011. Day-to-day operations led by a dedicated CEO.
 
 - Brand strategy, verbal and visual identity, web design and development, AI automation, and ongoing client support.
 - Freelance design and development for international clients through Upwork: 81 completed contracts, 3,400+ hours delivered, a 5.0 rating across 71 client reviews.
@@ -38,7 +50,9 @@ European IT outsourcing company. Web design from initial concept and strategy th
 
 **Generalist: graphic, web, SEO and business development** · April 2000 to March 2006
 
-Various roles with international teams. Began as a graphic designer at a printing company, then expanded into web design, front-end development, SEO and digital marketing. Worked full time with international teams at Best Commerce Tools (US) and Tarsus plc (UK, now part of Informa plc). Progressively shifted toward business development: identifying opportunities, pitching services, building client relationships.
+Began as a graphic designer at a printing company. Expanded into web design, front-end development, SEO and digital marketing.
+
+Worked full time with international teams at Best Commerce Tools (US) and Tarsus plc (UK, now part of Informa). Later shifted toward business development: finding opportunities, pitching, building client relationships.
 
 ## Entrepreneurial ventures
 
@@ -58,7 +72,11 @@ Recorded from a live Zoom training series I ran during the lockdown for more tha
 
 **Lecturer, Herald College Kathmandu** · February 2022 to January 2023
 
-University of Wolverhampton (UK) partner institution, BSc (Hons) Computer Science programme. Module leader for Human-Computer Interaction; lectured and delivered various modules; prepared lesson plans and study-guide material; worked within international university rules and regulations from academic and administrative perspectives.
+University of Wolverhampton (UK) partner institution, BSc (Hons) Computer Science.
+
+- Module leader for Human-Computer Interaction.
+- Lectured and delivered various modules; prepared lesson plans and study guides.
+- Worked within international university rules, academic and administrative.
 
 **Part-time Lecturer, Herald College Kathmandu** · March to June 2021
 
@@ -70,7 +88,7 @@ London Metropolitan University (UK) partner institution. Supervised final-year p
 
 ## Education
 
-- **MSc with Merit, Information Technology and Applied Security**, London Metropolitan University (UK), taught with Islington College, Kathmandu. Part-time, 2020 to 2024, awarded October 2024. Cybersecurity, big data and analytics with a focus on secure, data-driven systems; practical projects in banking security, data warehousing and health-data analytics.
+- **MSc with Merit, Information Technology and Applied Security**, London Metropolitan University (UK), taught with Islington College, Kathmandu. Part-time, 2020 to 2024. Cybersecurity, big data and analytics; projects in banking security, data warehousing and health-data analytics.
 - **BSc with Upper Second Class Honours, Multimedia Technologies**, London Metropolitan University (UK), studies administered by Islington College, Kathmandu. 2011 to 2014, awarded July 2014.
 - **Diploma in Design Communication, Graphics and Advertising**, Cavendish College London, 2009 to 2010. First year of multimedia studies, continued to the BSc at Islington College.
 - **Higher Secondary Education (10+2)**, Pasang Lhamu Sherpa Memorial H.S. School, Kathmandu, 2006.

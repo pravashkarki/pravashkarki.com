@@ -468,3 +468,9 @@ header.rail nav ul.nav-links, .products ul { padding-left: 0; margin-left: 0; }
   header.rail { min-height: calc(100vh - 4rem); }
   .social { margin-top: auto; }
 }
+
+/* Reading comfort on content pages: shorter measure, air between paragraphs, sentences that end on their own line */
+article p, article li { max-width: 60ch; }
+article p { margin-bottom: 1.1rem; }
+article h2 { margin-top: 2.6rem; }
+article h3 { margin-top: 1.6rem; }
