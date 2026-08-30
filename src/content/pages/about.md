@@ -13,7 +13,7 @@ My working hours belong to my full-time role, so I am not taking new consulting 
 
 ## Experience
 
-**Product Designer (Consultant), [Highstep Technologies Inc.](https://highstep.com), New Jersey, USA** · May 2025 to present
+**Product Designer (Consultant), [Highstep Technologies](https://highstep.com), New Jersey, USA** · May 2025 to present
 
 Remote consulting engagement under contract.
 
