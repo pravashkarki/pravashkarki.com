@@ -6,7 +6,7 @@ import tokens from "../token.json";
 export const site = {
   name: "Pravash Karki",
   title: "Pravash Karki",
-  description: "Pravash Karki: calm software, and Mano, a mental-health app and atlas for Nepal.",
+  description: "Pravash Karki: product designer and technology consultant in Kathmandu. Founder of LastDoor; maker of Mano, a mental-health app and atlas for Nepal.",
   url: "https://pravashkarki.com",
 };
 
