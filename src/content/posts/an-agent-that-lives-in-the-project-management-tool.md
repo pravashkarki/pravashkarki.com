@@ -14,6 +14,8 @@ The second precondition was an existing internal wiki. How the team works, how e
 
 ## One place for tasks
 
+There is a human reason the agent lives in the task system and not in a chat window. Working with an agent in a terminal or a chat is fast, and fast is often overwhelming: replies arrive faster than a person can read, understand, and decide. A to-do with a comment on it has a gap built in. The agent writes, the person reads when they are ready, thinks, and answers. That gap is where understanding happens, and the system is designed to keep it.
+
 The rule underneath everything is task-first routing. Any action item that surfaces anywhere, in a chat, in a code review, in an agent session, lands on the board first. Local files can mirror the board for speed, but they are read-only copies; when they disagree, the board wins. An agent that "logged it in its notes" has not logged it.
 
 Tasks open and close with discipline, and the agent is held to it as strictly as a person. A to-do is created with five things set at once: a title, a brief with scope and acceptance criteria, an owner, someone to notify on completion, and a date. A one-line title is not a task. Before anything is marked done, a completion note goes on first: what shipped, the references, the follow-ups. A closed item with no note is treated as a hole in the record.
