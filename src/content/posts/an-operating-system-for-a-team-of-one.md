@@ -3,6 +3,7 @@ title: An operating system for a team of one
 date: 2026-08-30
 description: How I work with several AI coding agents without losing the plot. The rules, the files, and the one decision that made the rest possible.
 tags: [ai-agents, workflow, operating-model]
+image: /images/og-an-operating-system-for-a-team-of-one.png
 ---
 
 For most of 2026 I have been working as a team of one plus several AI coding agents: Claude Code in one terminal, Codex in another, sometimes a review model reading over their shoulders. Client work, a mental-health app, a bilingual education site, infrastructure. It is more work than one person should be able to do, and for a while it was also more chaos than one person should have to manage.
