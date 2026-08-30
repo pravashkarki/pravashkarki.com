@@ -456,7 +456,7 @@ article h3 { font-family: var(--display); font-weight: 600; }
 header.rail nav ul.nav-links, .products ul { padding-left: 0; margin-left: 0; }
 .empty { border-top: 0; padding-top: 0; }
 
-.social { list-style: none; padding: 0; margin: 0.5rem 0 0; display: flex; flex-wrap: wrap; gap: 0.25rem 0.9rem; }
+.social { list-style: none; padding: 0; margin: 0.25rem 0 0; display: flex; flex-direction: column; gap: 0.35rem; }
 .social a { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.04em; color: var(--text-muted); text-decoration: none; }
 .social a:hover { color: var(--teal); }
-@media (max-width: 760px) { .social { margin-top: 0; } }
+@media (max-width: 760px) { .social { flex-direction: row; flex-wrap: wrap; gap: 0.25rem 1rem; margin-top: 0; } }
