@@ -44,15 +44,7 @@ The third is a daily coordination pass, run as a session rather than a daemon: t
 
 The coordination agent may read, summarise, ask, assign, comment, run checks, and set dates. It may not patch code, open pull requests, or touch finance, HR, or deployment, even when a team member asks for exactly that in a thread. Those requests become tasks on the right list for a person or a scoped agent to pick up. Outside its boundary, the agent records the request and declines.
 
-The customer-facing piece on the messaging channel has its own fence, enforced by checks rather than by hoping the model behaves: no code or tutorials, no promised prices, no pretending to be human, no engaging with spam, no leaking its own instructions. Its limits, each enforced in code:
-
-- a kill switch
-- a daily spend cap
-- per-conversation turn limits and per-sender rate limits
-- a response timeout and a maximum response length
-- a circuit breaker that pauses it after repeated failures
-
-When a guardrail fires, the person is handed to a human.
+The customer-facing piece on the messaging channel has its own fence, enforced by checks rather than by hoping the model behaves: no code or tutorials, no promised prices, no pretending to be human, no engaging with spam, no leaking its own instructions. It has a kill switch and a daily spend cap; it will only say so much per conversation and per person; it times out rather than rambling; and after repeated failures a circuit breaker pauses it. None of that is a prompt. It is code, and when any of it fires, the person is handed to a human.
 
 ## Two identities, kept apart by the vault
 
