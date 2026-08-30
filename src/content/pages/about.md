@@ -91,11 +91,12 @@ Nepali (native) · English (full professional proficiency; postgraduate educatio
 
 - Republica: [Made-in-Nepal apps for your smartphones](https://myrepublica.nagariknetwork.com/news/made-in-nepal-apps-for-your-smartphones), on BattiGayo (16,000 downloads at the time, about 1,000 a week) and app development in Nepal.
 - BattiGayo, as it was: [battigayo.com in the Wayback Machine (2018)](http://web.archive.org/web/20180805192921/http://battigayo.com/).
-- The Doers Nepal podcast: [The fall and rise of a tech entrepreneur](https://thedoersnepal.podbean.com/e/the-fall-and-rise-of-tech-entrepreneur-pravash-karki/).
+- The Doers Nepal podcast: [The fall and rise of a tech entrepreneur](https://thedoersnepal.podbean.com/e/the-fall-and-rise-of-tech-entrepreneur-pravash-karki/) (June 2024), also [on YouTube](https://www.youtube.com/watch?v=X6apcX_cWh8).
+- WordCamp Kathmandu organising team: [2017](https://kathmandu.wordcamp.org/2017/organizers/) · [2018](https://kathmandu.wordcamp.org/2018/organizers/).
 - Podcast: [Remote work is the future, how anyone can start earning from home](https://www.youtube.com/watch?v=uOu3kEZrpZA) (YouTube).
 
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/pravasho/) · [GitHub](https://github.com/pravashkarki/) · [Facebook](https://www.facebook.com/prav.karki/) · [WordPress.org](https://profiles.wordpress.org/pravco/) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f)
+[LinkedIn](https://www.linkedin.com/in/pravasho/) · [GitHub](https://github.com/pravashkarki/) · [Facebook](https://www.facebook.com/prav.karki/) · [WordPress.org](https://profiles.wordpress.org/pravco/) · [Drupal.org](https://www.drupal.org/u/pravashkarki) · [Upwork](https://www.upwork.com/freelancers/~0153c9090872bf885f)
 
 Write to me at kpravash [at] gmail [dot] com.
