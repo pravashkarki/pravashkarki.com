@@ -1,6 +1,6 @@
 ---
 title: An operating system for a team of one
-date: 2026-08-30
+date: 2026-07-12
 description: How I work with several AI coding agents without losing the plot. The rules, the files, and the one decision that made the rest possible.
 tags: [ai-agents, workflow, operating-model]
 image: /images/og-an-operating-system-for-a-team-of-one.png
