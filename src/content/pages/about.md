@@ -1,6 +1,6 @@
 ---
 title: About
-description: Pravash Karki, product designer and technology consultant, Kathmandu. Profile, experience, ventures, teaching, education, skills, community.
+description: Pravash Karki, HCI-certified product designer and technology consultant working remotely worldwide. Profile, experience, ventures, teaching, education, skills, community.
 ---
 
 ## Profile
