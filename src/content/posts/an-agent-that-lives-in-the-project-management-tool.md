@@ -6,7 +6,7 @@ tags: [ai-agents, operating-model, tooling]
 image: /images/og-an-agent-that-lives-in-the-project-management-tool.png
 ---
 
-The first essay was about a person and several agents in a terminal. This one is about the other half of how LastDoor works: an agent that is always available to the team, that does not live in anyone's terminal, and that is bounded on purpose.
+[The first essay](/posts/an-operating-system-for-a-team-of-one/) was about a person and several agents in a terminal. This one is about the other half of how LastDoor works: an agent that is always available to the team, that does not live in anyone's terminal, and that is bounded on purpose.
 
 The team runs on one project management tool. Every client project is a project there; every piece of work is a to-do with a brief. That was true before any agent arrived, and it is the reason the agent could arrive at all: the task system was already the one place where work is defined, assigned, and closed. The agent was wired into that place, not into a new one.
 
