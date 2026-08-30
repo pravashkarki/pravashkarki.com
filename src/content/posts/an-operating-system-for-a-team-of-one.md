@@ -6,7 +6,7 @@ tags: [ai-agents, workflow, operating-model]
 image: /images/og-an-operating-system-for-a-team-of-one.png
 ---
 
-For most of 2026 I have been working as a team of one plus several AI coding agents: Claude Code in one terminal, Codex in another, sometimes a review model reading over their shoulders. Client work, a mental-health app, a bilingual education site, infrastructure. The agents multiplied what I could ship, and for a while they multiplied the coordination beyond what chat could hold.
+My days belong to a full-time product role. Everything in this essay happens outside it, on evenings and weekends: the studio I founded, which its CEO runs day to day; a mental-health app; a bilingual education site; some infrastructure. For most of 2026 that side of my life has been a team of one plus several AI coding agents: Claude Code in one terminal, Codex in another, sometimes a review model reading over their shoulders. The agents multiplied what I could ship in those hours, and for a while they multiplied the coordination beyond what chat could hold. Limited hours are exactly why an operating model was worth writing down.
 
 I did not set out to run several agents. The second one arrived the day I hit the usage limit on the first subscription with work still to finish. It stayed for a different reason: I had learned I could not fully rely on one agent's account of its own work, so a second model started reading the first one's output before I did. That became the pair-review habit. The speed showed up last, and only once the rules existed: two or three agents on separate packets, with one orchestrator holding the context, get through a day's work in a fraction of the time it once took, coordination included.
 
